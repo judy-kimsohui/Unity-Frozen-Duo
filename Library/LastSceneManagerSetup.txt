@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/GameScene.unity
-=======
-- path: Assets/Scenes/Sample.unity
->>>>>>> 90b492741262e786377a4d692a01518557e2e5a3
+- path: Assets/AurynSky/WinterArena/Scenes/DemoScene_Winter.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

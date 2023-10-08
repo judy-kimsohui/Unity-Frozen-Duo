@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 /Users/kimsohui/Project/Game Frozen Duo/Frozen Duo/Frozen-Duo
-=======
-/Users/haejangjang/Desktop/Frozen_Duo/Frozen-Duo
->>>>>>> 90b492741262e786377a4d692a01518557e2e5a3
