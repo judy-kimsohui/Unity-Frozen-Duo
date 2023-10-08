@@ -4,6 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     public string playerTag; // "Player1" 또는 "Player2"를 설정합니다.
     public float moveSpeed = 5f;
+    private float gravity = -9.81f;
 
     private CharacterController characterController;
 
@@ -30,5 +31,8 @@ public class PlayerController : MonoBehaviour
             Vector3 moveDirection = new Vector3(horizontalInput, 0f, verticalInput).normalized;
             characterController.Move(moveDirection * moveSpeed * Time.deltaTime);
         }
+
+        Vector3 gravityVector = new Vector3(0f, gravity, 0f);
+        characterController.Move(gravityVector * Time.deltaTime);
     }
 }
