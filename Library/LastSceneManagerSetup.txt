@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/AurynSky/WinterArena/Scenes/InventoryScene_Winter.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
