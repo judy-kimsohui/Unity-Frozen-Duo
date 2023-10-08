@@ -230,3 +230,940 @@ Received Import Request.
 Start importing Assets/AurynSky/WinterArena/Scenes/DemoScene_Winter.unity using Guid(a896278eab6e62e4aa8c5a0d3188d5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d7dd32368cb90c7562e18a79010388') in 0.000618 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 3.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 523.
+Memory consumption went from 71.8 MB to 71.8 MB.
+Total: 2.697500 ms (FindLiveObjects: 0.020750 ms CreateObjectMapping: 0.002542 ms MarkObjects: 2.665333 ms  DeleteObjects: 0.008459 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 241.109717 seconds.
+  path: Assets/Textures/Skybox
+  artifactKey: Guid(76bc4381af994450fa53bf66239af481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox using Guid(76bc4381af994450fa53bf66239af481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50cae07a0a70f2a6fb70b1afcd7aee6') in 0.000325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 131.140733 seconds.
+  path: Assets/Meshtint Free Tile Map Mega Toon Series/Prefabs
+  artifactKey: Guid(3f5fb976ca04ca642bbef35580903084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Prefabs using Guid(3f5fb976ca04ca642bbef35580903084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f630192e3d274ff3932c5cc64f8ea443') in 0.000243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.697606 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/Snow.prefab
+  artifactKey: Guid(be5366f4dddf8ca4ebe9c7f86e0904ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/Snow.prefab using Guid(be5366f4dddf8ca4ebe9c7f86e0904ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0d76019e2f485ef5fa86d4ee72cfe6') in 0.044801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.044704 seconds.
+  path: Assets/AurynSky/WinterArena/Materials/CubeParticlesWinter.mat
+  artifactKey: Guid(10f192c0980be6641b7577a6d0400b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Materials/CubeParticlesWinter.mat using Guid(10f192c0980be6641b7577a6d0400b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc1e28d5e2d26a2f287a25bb8a9f76f') in 0.014761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.513695 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/Tower_Window.prefab
+  artifactKey: Guid(9d70f7cc41c41484bbf404b935f0d590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/Tower_Window.prefab using Guid(9d70f7cc41c41484bbf404b935f0d590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169ec444be35510ce7d66654f52a6a23') in 0.058664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.279221 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterCubeLarge_v2.prefab
+  artifactKey: Guid(01dd818fb945da74490ada314c52a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterCubeLarge_v2.prefab using Guid(01dd818fb945da74490ada314c52a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df9327330b3e0c0c465cf844a82febf') in 0.004616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.466345 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/Fire.prefab
+  artifactKey: Guid(8e83fd7c6161f7943b4f5b81970ac712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/Fire.prefab using Guid(8e83fd7c6161f7943b4f5b81970ac712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1fd9f2240c1edb8dbc7b44ab378575') in 0.004054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.807838 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/Fire&Smoke.prefab
+  artifactKey: Guid(4a8fc365f726ad54693945c87f027798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/Fire&Smoke.prefab using Guid(4a8fc365f726ad54693945c87f027798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e54db10208ecdd309fd9a5ac1afb79') in 0.005966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 2.928790 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/Shovel.prefab
+  artifactKey: Guid(77960433296b2e94db1763ac885e8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/Shovel.prefab using Guid(77960433296b2e94db1763ac885e8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2658e11291bdf038ee633229581842b') in 0.007355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.208298 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/Smoke.prefab
+  artifactKey: Guid(ed488ac10aefc794eb9d16dd3719e791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/Smoke.prefab using Guid(ed488ac10aefc794eb9d16dd3719e791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f40018c3a7ef0ca9679b2d28f2a254f') in 0.003534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.759290 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/SnowPiles
+  artifactKey: Guid(86cb62b206c29254fb73ba275506e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/SnowPiles using Guid(86cb62b206c29254fb73ba275506e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194026656e77d4e72654901aae02f3e8') in 0.000284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.816054 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterBrazier.prefab
+  artifactKey: Guid(92484f07dac8f2342af273b0bc4d24ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterBrazier.prefab using Guid(92484f07dac8f2342af273b0bc4d24ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc0f7a027555e7a2a28c2ccd43d1857') in 0.007043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.786255 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterBrazier_v2.prefab
+  artifactKey: Guid(2876e03279b43b748835fd4bfeb7b602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterBrazier_v2.prefab using Guid(2876e03279b43b748835fd4bfeb7b602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b836ee2c0f7cf5a4351a19435fe0f74f') in 0.006177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 0.474544 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterBridgeWide_Section.prefab
+  artifactKey: Guid(e685212d9f39dc942b2b23c23a7a719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterBridgeWide_Section.prefab using Guid(e685212d9f39dc942b2b23c23a7a719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7f74d86662c634e1edb49b7844c9eb') in 0.004073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.810183 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterCannonBall.prefab
+  artifactKey: Guid(60c499c24eeb0da40a14722f34d14373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterCannonBall.prefab using Guid(60c499c24eeb0da40a14722f34d14373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa99a16f61be6b8edc98c4d99a0cdf0') in 0.004887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.988319 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterBridge_Section.prefab
+  artifactKey: Guid(381ac0576f313884f9fd57cdbc0b44fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterBridge_Section.prefab using Guid(381ac0576f313884f9fd57cdbc0b44fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf6e36f0b729bda581c298cb23f75e7') in 0.004220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.656836 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterCrate_SM.prefab
+  artifactKey: Guid(7abef2adc7c835748b443de4ed8d7585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterCrate_SM.prefab using Guid(7abef2adc7c835748b443de4ed8d7585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f347456f90b291bcacff885795042282') in 0.008872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.694997 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterCrate_MD.prefab
+  artifactKey: Guid(d45e0d96dfe73c145b5cbc18a2e41084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterCrate_MD.prefab using Guid(d45e0d96dfe73c145b5cbc18a2e41084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2558c3cc0d652f68e69536afd5b9a7') in 0.008586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.618464 seconds.
+  path: Assets/AurynSky/WinterArena/Models
+  artifactKey: Guid(97da53d92ea62d44ca9e5f5d0efc2760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models using Guid(97da53d92ea62d44ca9e5f5d0efc2760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54362cb1649b459df19102d97cf84f01') in 0.000608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.652176 seconds.
+  path: Assets/AurynSky/WinterArena/Models/SnowCorner_v2.fbx
+  artifactKey: Guid(47bfee777d4120a409c6a7536e167684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/SnowCorner_v2.fbx using Guid(47bfee777d4120a409c6a7536e167684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4eba89dd4c3b3a1b16d3733bcf640d9') in 0.118932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 102.446848 seconds.
+  path: Assets/Textures/Skybox/Above Day C_Cam_0_Front+Z.png
+  artifactKey: Guid(5738142c5715b484ea5779002f6f8b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/Above Day C_Cam_0_Front+Z.png using Guid(5738142c5715b484ea5779002f6f8b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e50e35086848a2650ef2600e7175350') in 0.008481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.437771 seconds.
+  path: Assets/Textures/Skybox/Above Day C Equirect.png
+  artifactKey: Guid(24036077f3e1b4f93b82f23a4c1a2a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/Above Day C Equirect.png using Guid(24036077f3e1b4f93b82f23a4c1a2a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39b3ced7eda2fbb08de65852e9e99f8') in 0.007149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.855729 seconds.
+  path: Assets/AurynSky/WinterArena/Scripts
+  artifactKey: Guid(2054bba749a942b4fb5a3016ace249c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Scripts using Guid(2054bba749a942b4fb5a3016ace249c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115909fa3ea990fe830b048d3ba763d4') in 0.000724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.263756 seconds.
+  path: Assets/AurynSky/WinterArena/Scenes/DemoScene_Winter 1.unity
+  artifactKey: Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Scenes/DemoScene_Winter 1.unity using Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20e94a157ce2529a6a5eeb14b09494d') in 0.000300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.979545 seconds.
+  path: Assets/Scenes/moving.unity
+  artifactKey: Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/moving.unity using Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc9d86f2ef0f3a82d938f6e3d99f9b0') in 0.000277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.887124 seconds.
+  path: Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Mega Toon Tilemap 01.mat
+  artifactKey: Guid(e11820def211aac499d1bcf50c3e3f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Mega Toon Tilemap 01.mat using Guid(e11820def211aac499d1bcf50c3e3f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1baec7395a7bd7edb4e9d2344dfe26') in 0.004663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Waypoint.mat
+  artifactKey: Guid(92e53f10fc59cb84fa5a5c3696a57041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Waypoint.mat using Guid(92e53f10fc59cb84fa5a5c3696a57041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6205c6cb8c2a0139346656a8b1986936') in 0.003135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Materials/Yellow.mat
+  artifactKey: Guid(6a0e20b2a97c6436d8e7998e81fbc69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Yellow.mat using Guid(6a0e20b2a97c6436d8e7998e81fbc69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6286aac835cbfeaf65cd00a2dc1142f6') in 0.002984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.152940 seconds.
+  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Button Platform 01.FBX
+  artifactKey: Guid(f7c7946de8294fa4887750e212a001a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Button Platform 01.FBX using Guid(f7c7946de8294fa4887750e212a001a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d35214544c188b420dc2445673a686') in 0.000649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.054384 seconds.
+  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Waypoint 01.FBX
+  artifactKey: Guid(792e22b4acf03b74db5f620ccdef7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Waypoint 01.FBX using Guid(792e22b4acf03b74db5f620ccdef7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accdb3cf3c53eb025d71c5466276380c') in 0.000315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.318416 seconds.
+  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Trap 01.FBX
+  artifactKey: Guid(833b6754a6aae0d4eb62ce233eae01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Trap 01.FBX using Guid(833b6754a6aae0d4eb62ce233eae01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816a074240956483c38a5fd2a3e30da6') in 0.000613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.042884 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCastleDoor_R.fbx
+  artifactKey: Guid(3995bf63cdc77a049b62ba2709f69583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCastleDoor_R.fbx using Guid(3995bf63cdc77a049b62ba2709f69583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d906dd1723114ade0f0e0da12845eb') in 0.009173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCastleWindow_v2.fbx
+  artifactKey: Guid(c4d02b46eb54340419e128b1878e70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCastleWindow_v2.fbx using Guid(c4d02b46eb54340419e128b1878e70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e6cffd1bb7c27068c7e08954d564ec') in 0.007147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCastle.fbx
+  artifactKey: Guid(505c98fb2ff991b419e21527526a2d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCastle.fbx using Guid(505c98fb2ff991b419e21527526a2d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d880242d99348349acf712984be4d37') in 0.007766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCastleDoor_L.fbx
+  artifactKey: Guid(8f4da04830729654296c27d043875c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCastleDoor_L.fbx using Guid(8f4da04830729654296c27d043875c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d59659dd54e32cc3a5567690c5e573') in 0.007241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCatapultSki.fbx
+  artifactKey: Guid(9040094e8183088489935f9f6d6a6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultSki.fbx using Guid(9040094e8183088489935f9f6d6a6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ecc1da3d926a823eca6c5dbf8a6a6f') in 0.006898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCatapultBase.fbx
+  artifactKey: Guid(e2de28b2bb15f6d4f970ab17be6b9cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultBase.fbx using Guid(e2de28b2bb15f6d4f970ab17be6b9cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4967dc1b5e6716adfd6c80ef087c0998') in 0.006703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCastleWindow.fbx
+  artifactKey: Guid(e72cd5d9ca8a31c439d64409a820e614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCastleWindow.fbx using Guid(e72cd5d9ca8a31c439d64409a820e614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1cb191aa5cedfce52c8601c419cf37') in 0.006152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterChestBottom_v2.fbx
+  artifactKey: Guid(8223cded31394424ab47abd1fd6a2873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterChestBottom_v2.fbx using Guid(8223cded31394424ab47abd1fd6a2873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebaa0afa8b92182be0d6836b708b599') in 0.007146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCastle_v2.fbx
+  artifactKey: Guid(648498381b2b86740b13fcd28c3e047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCastle_v2.fbx using Guid(648498381b2b86740b13fcd28c3e047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00aace5ef3570838fc529a22dfd6e408') in 0.006990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterChestBottom.fbx
+  artifactKey: Guid(442d058830f1abb4a80196d11a3c9659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterChestBottom.fbx using Guid(442d058830f1abb4a80196d11a3c9659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d499472e33c92552a5215a225e52e1f') in 0.006144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCubeMedium.fbx
+  artifactKey: Guid(a191ff0f63e250849a8393e269f1d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCubeMedium.fbx using Guid(a191ff0f63e250849a8393e269f1d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0516b75f3fa80dbb126b3889ffd7005') in 0.006094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCatapultWheel_v2.fbx
+  artifactKey: Guid(128b7ab7790e5654d89fb88d7769d284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultWheel_v2.fbx using Guid(128b7ab7790e5654d89fb88d7769d284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9d12d03347161c9ed87591c3d04f61') in 0.006384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCannonBall.fbx
+  artifactKey: Guid(3ac86b5d48b1c49478cdc2d039a1d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCannonBall.fbx using Guid(3ac86b5d48b1c49478cdc2d039a1d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb7ce6cd17ea77cf94b71821043a0f1') in 0.006295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCatapultArm_v2.fbx
+  artifactKey: Guid(5cfaeb9cc4d0f2949a8144cade6f16e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultArm_v2.fbx using Guid(5cfaeb9cc4d0f2949a8144cade6f16e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc4806debcb4f763f0579f1a5adb6e5') in 0.006111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Grass 01.FBX
+  artifactKey: Guid(c2cf9f73c2c052c47baf679fa7478662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Grass 01.FBX using Guid(c2cf9f73c2c052c47baf679fa7478662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fa8cee7f3ecea121e0a22717278b64') in 0.000153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterChestBottom_v3.fbx
+  artifactKey: Guid(f1317fa44d0c23a4fb20ea6077304b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterChestBottom_v3.fbx using Guid(f1317fa44d0c23a4fb20ea6077304b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a590b76ba0c3d844f7b55efb2042542f') in 0.006073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCatapultArm.fbx
+  artifactKey: Guid(17137958679cebd48a0e0fac024b24e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultArm.fbx using Guid(17137958679cebd48a0e0fac024b24e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b321aafd3436ceeb301f9d5c05f9c4aa') in 0.006483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCastleDoor_v2_R.fbx
+  artifactKey: Guid(4dcee547545fdf040ab908a253d4677b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCastleDoor_v2_R.fbx using Guid(4dcee547545fdf040ab908a253d4677b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47332766fcc5afdf806fa24ab051ce79') in 0.006837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.836850 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCannonBall_v2.fbx
+  artifactKey: Guid(02cfb312cd8763245af07555f4e84555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCannonBall_v2.fbx using Guid(02cfb312cd8763245af07555f4e84555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f778de0a11dd683851527c6c82a4b566') in 0.007961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterChestTop.fbx
+  artifactKey: Guid(14550da5557e9a149b02ae88b5accbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterChestTop.fbx using Guid(14550da5557e9a149b02ae88b5accbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0073371337fecfe1f0ecf5da308bccb') in 0.007438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.024282 seconds.
+  path: Assets/AurynSky/WinterArena/Models/Castle_W.fbx
+  artifactKey: Guid(bdae19fad075d0a44ab72d7344b3fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/Castle_W.fbx using Guid(bdae19fad075d0a44ab72d7344b3fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8adfa2a3f859818b3607e43598ee3e') in 0.007689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterBanner.fbx
+  artifactKey: Guid(56a61d61b962fb64ca53771164173483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterBanner.fbx using Guid(56a61d61b962fb64ca53771164173483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0392ffe819763f70ab65881347858d6c') in 0.061143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AurynSky/WinterArena/Models/FlagPole.fbx
+  artifactKey: Guid(b1fccda3ec0dee645894bfec54757496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/FlagPole.fbx using Guid(b1fccda3ec0dee645894bfec54757496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c31d9bde0bf2cb1d4fa45b8ab45c93e') in 0.006305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.424585 seconds.
+  path: Assets/AurynSky/WinterArena/Models/SnowPile.fbx
+  artifactKey: Guid(3d589e666a18cef4b82a62ed67cf75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/SnowPile.fbx using Guid(3d589e666a18cef4b82a62ed67cf75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8904a553e95f9b78a8244860416fa3aa') in 0.007703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AurynSky/WinterArena/Models/SnowLine.fbx
+  artifactKey: Guid(e51a4b17b643e1b4cb72f15cde8b9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/SnowLine.fbx using Guid(e51a4b17b643e1b4cb72f15cde8b9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f26cc61de6929502d6845fbd60c5f4') in 0.006788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.025839 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCrate.fbx
+  artifactKey: Guid(52162aba1a45ec94c9c25f23c36267f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCrate.fbx using Guid(52162aba1a45ec94c9c25f23c36267f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d931df70ed37d421d64b0319a2d79ab') in 0.008433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/AurynSky/WinterArena/Models/Tower_W.fbx
+  artifactKey: Guid(c73dae5f4a5c46a44b41456bf30328c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/Tower_W.fbx using Guid(c73dae5f4a5c46a44b41456bf30328c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0087c53e2b2458bb7f127dcc188d3f00') in 0.006695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterBrazier.fbx
+  artifactKey: Guid(4156a4f102566af40af7101768132060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterBrazier.fbx using Guid(4156a4f102566af40af7101768132060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfcc34dc88b263bf76b45e588400d0a') in 0.005913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCoin.fbx
+  artifactKey: Guid(d56b202810e8da14c95841afa026cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCoin.fbx using Guid(d56b202810e8da14c95841afa026cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843c3a7c29c72eaef08f6188d15186dc') in 0.006140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.010409 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTower_v2.fbx
+  artifactKey: Guid(dc85ee47e579c864681c1621aa9e7937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTower_v2.fbx using Guid(dc85ee47e579c864681c1621aa9e7937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a9e63d94325abd6ac420b9b05d8eba') in 0.007035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCubeSmall_v2.fbx
+  artifactKey: Guid(765fbfd987697ba4ba0ad141bde91361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCubeSmall_v2.fbx using Guid(765fbfd987697ba4ba0ad141bde91361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fcac7cf3aa6b213833dd056472d25c') in 0.006785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.018545 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTreeApplesShortG_v2.fbx
+  artifactKey: Guid(5bf989cc04f2f884c9ae160dc0a6739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTreeApplesShortG_v2.fbx using Guid(5bf989cc04f2f884c9ae160dc0a6739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbc72b86da305ce9c68f6d13fd7d3b3') in 0.007897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTreeAppleTallG_v2.fbx
+  artifactKey: Guid(34356a6f96d526843b9580f10abe4e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTreeAppleTallG_v2.fbx using Guid(34356a6f96d526843b9580f10abe4e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fd01fdc6c40552ef97b0c34666b437') in 0.007251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTreeAppleTall.fbx
+  artifactKey: Guid(b789f8de7fc503b46a542deb4267fd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTreeAppleTall.fbx using Guid(b789f8de7fc503b46a542deb4267fd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc38ac951b3cb76edf07d5d912922ca') in 0.007591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTreeAppleTallG.fbx
+  artifactKey: Guid(7e14d8ded08acce4ab705226f9df80e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTreeAppleTallG.fbx using Guid(7e14d8ded08acce4ab705226f9df80e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd523eed383a6a6d3d6d82241cb096d04') in 0.006775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.578859 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTreeDShort.fbx
+  artifactKey: Guid(6f64ac6a9f346084bbe8b5a4890bfead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTreeDShort.fbx using Guid(6f64ac6a9f346084bbe8b5a4890bfead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd036ee4454c478b86fc8afc557a882cc') in 0.007734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.034106 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTreeDTallG.fbx
+  artifactKey: Guid(f7a2dc905ef52b84ca26a36c73df2afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTreeDTallG.fbx using Guid(f7a2dc905ef52b84ca26a36c73df2afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316b3f9b637930510d22548d05512a6f') in 0.007626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTreeApplesShort.fbx
+  artifactKey: Guid(74aac7f73aa0df4449a51eca299fa4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTreeApplesShort.fbx using Guid(74aac7f73aa0df4449a51eca299fa4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edc28a67f816f794c4d0b13b7824389') in 0.007003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTower.fbx
+  artifactKey: Guid(81ab000137f3aac4fbe46a4e750d464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTower.fbx using Guid(81ab000137f3aac4fbe46a4e750d464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8640aba0529886216c7510155372bc') in 0.006933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTreePineTall.fbx
+  artifactKey: Guid(de7e5cce8d8676244a218979562fa6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTreePineTall.fbx using Guid(de7e5cce8d8676244a218979562fa6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad5676e061c31aee15d81c7a99a16c8') in 0.006759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.017669 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCubeSmall.fbx
+  artifactKey: Guid(19a2a691f7799ef4cafd8491a4431b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCubeSmall.fbx using Guid(19a2a691f7799ef4cafd8491a4431b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd436f5cb30a76eddeac4f5e0d5c25934') in 0.007138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterGroundDirt.fbx
+  artifactKey: Guid(fa84981206a101a43b4b54b51dfccbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterGroundDirt.fbx using Guid(fa84981206a101a43b4b54b51dfccbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64858e3d7e205a67a2f5e59e6995d06d') in 0.007100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.024254 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterIceTreePineTall.fbx
+  artifactKey: Guid(532b0a1e29745774fad60bcb89b319fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterIceTreePineTall.fbx using Guid(532b0a1e29745774fad60bcb89b319fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d0571503138fe4bfc3bcbc67639d38') in 0.007239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/AurynSky/WinterArena/Models/BannerHolder.fbx
+  artifactKey: Guid(16645dea5f57ecb4d816b8dcf5050545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/BannerHolder.fbx using Guid(16645dea5f57ecb4d816b8dcf5050545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ab1bbc3784e5662059a526fa7d270e') in 0.006649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.003779 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterGroundDirtSnow.fbx
+  artifactKey: Guid(e50cc2f875a3570429028af89c95353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterGroundDirtSnow.fbx using Guid(e50cc2f875a3570429028af89c95353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a96c10fe57209edc171a9b64c6fc5f') in 0.006474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterGrass04.fbx
+  artifactKey: Guid(2c1d584bdf0d86644962a92568011503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterGrass04.fbx using Guid(2c1d584bdf0d86644962a92568011503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c267b271b8e4a2a8b84e988f2c7598b') in 0.006909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.021221 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterGroundRockSnow.fbx
+  artifactKey: Guid(7e853044eb49cdc4693a9c05951e10fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterGroundRockSnow.fbx using Guid(7e853044eb49cdc4693a9c05951e10fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb247da4ca55d1c0e2027a1acbd13c81') in 0.006761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterGroundIce.fbx
+  artifactKey: Guid(6e287a6e1216437419e06afb9386b9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterGroundIce.fbx using Guid(6e287a6e1216437419e06afb9386b9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bd76bb4d4913ded3853c02ae3cee24') in 0.006503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.440681 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterIceTreePineShort.fbx
+  artifactKey: Guid(0f5f08b83d08ca74d9aa1c7d50e1e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterIceTreePineShort.fbx using Guid(0f5f08b83d08ca74d9aa1c7d50e1e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e63aa7c0d1fbade546402c58e697e2e') in 0.013326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.035358 seconds.
+  path: Assets/AurynSky/WinterArena/Materials/ColorPaletteNormal.mat
+  artifactKey: Guid(a289c7f765c09e74186a09dce58104d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Materials/ColorPaletteNormal.mat using Guid(a289c7f765c09e74186a09dce58104d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f106d0d0487fe0ae914cf7c5fb20b99') in 0.004218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Materials/M_Penguin.mat
+  artifactKey: Guid(76198734b86c6f84092e520e9fff3cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Materials/M_Penguin.mat using Guid(76198734b86c6f84092e520e9fff3cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02f30e1ec39d21356948d7476fe009c') in 0.099536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 72.808521 seconds.
+  path: Assets/Textures/Skybox/Above Day C_Cam_5_Down-Y.png
+  artifactKey: Guid(6a83afc22d64e4059a7c7aeee98dad2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/Above Day C_Cam_5_Down-Y.png using Guid(6a83afc22d64e4059a7c7aeee98dad2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2feef39e56303eb3dd905b22a5bb32') in 0.005070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.974269 seconds.
+  path: Assets/Textures/Skybox/Above Day C Equirect 1.png
+  artifactKey: Guid(8d565a3faebc24c158faebfb983a706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/Above Day C Equirect 1.png using Guid(8d565a3faebc24c158faebfb983a706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a17009e7b71c235e2a2891d51ee83a') in 0.005708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 52.075053 seconds.
+  path: Assets/Textures/Skybox/Above Day C Equirect.png
+  artifactKey: Guid(24036077f3e1b4f93b82f23a4c1a2a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/Above Day C Equirect.png using Guid(24036077f3e1b4f93b82f23a4c1a2a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841e156edf1e6c1a49f2d3b7a7d9d3d4') in 0.040957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 52.165794 seconds.
+  path: Assets/Textures/Skybox/Above Day C_Cam_1_Back-Z.png
+  artifactKey: Guid(c7c0d80989bfa4733963f339d82198a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/Above Day C_Cam_1_Back-Z.png using Guid(c7c0d80989bfa4733963f339d82198a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe0648dd3b9994f159b94bf8b6f8e26') in 0.004729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.368279 seconds.
+  path: Assets/Textures/Skybox/Above Day C_Cam_2_Left+X.png
+  artifactKey: Guid(911bc7c06b2a34472941711eff599522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/Above Day C_Cam_2_Left+X.png using Guid(911bc7c06b2a34472941711eff599522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d96e0cbc38b77727cd3a9f64e1ca853') in 0.004693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.968112 seconds.
+  path: Assets/Textures/Skybox/Above Day C_Cam_3_Right-X.png
+  artifactKey: Guid(8bba7c7df719043a191d839b6a5d90f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/Above Day C_Cam_3_Right-X.png using Guid(8bba7c7df719043a191d839b6a5d90f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54325b83f4db6fd79d8b4a117c1917d') in 0.005791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.931706 seconds.
+  path: Assets/Textures/Skybox/Above Day C_Cam_4_Up+Y.png
+  artifactKey: Guid(b58e452e28a6945bdbb40fce899cf5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/Above Day C_Cam_4_Up+Y.png using Guid(b58e452e28a6945bdbb40fce899cf5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f80246bc29dc868c0378fc3e267345d') in 0.005504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.405390 seconds.
+  path: Assets/Textures/Skybox/Above Day CSettings.lighting
+  artifactKey: Guid(385cbb268662247beab25e00fbd87d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/Above Day CSettings.lighting using Guid(385cbb268662247beab25e00fbd87d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 2 to 0.
+ -> (artifact id: 'ad331c4c47ab73b23ed3ef81b3ffc274') in 0.001749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x29d52b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.198 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.257 seconds
+Domain Reload Profiling: 456ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (90ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (257ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (183ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (25ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 576.
+Memory consumption went from 80.1 MB to 80.1 MB.
+Total: 1.720000 ms (FindLiveObjects: 0.021333 ms CreateObjectMapping: 0.003125 ms MarkObjects: 1.682375 ms  DeleteObjects: 0.012875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.143728 seconds.
+  path: Assets/Textures/Skybox/sky1
+  artifactKey: Guid(67316bd0c601346cd9c0d3304490823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/sky1 using Guid(67316bd0c601346cd9c0d3304490823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb555f0e5bdfe67047c84fa1f178ca5') in 0.000906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.743653 seconds.
+  path: Assets/Textures/Skybox/Sky1
+  artifactKey: Guid(67316bd0c601346cd9c0d3304490823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Skybox/Sky1 using Guid(67316bd0c601346cd9c0d3304490823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0639fd934029e8f4e64a3704fc0567ad') in 0.000293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.038212 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs
+  artifactKey: Guid(62d7837b18cb64d4f8ec763fda8a13ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs using Guid(62d7837b18cb64d4f8ec763fda8a13ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ead3f1f2976e75300e6e606523251b') in 0.000335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.690069 seconds.
+  path: Assets/Quirky Series Ultimate/_Shader
+  artifactKey: Guid(6108f1e67c74a5a4fb4e63e6cb064c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/_Shader using Guid(6108f1e67c74a5a4fb4e63e6cb064c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8869d69e0e5ce5f82fc50580ff8f872e') in 0.000377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.320111 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1
+  artifactKey: Guid(8faffef539ffb429198831323976ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1 using Guid(8faffef539ffb429198831323976ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216ce3259f0deb6ce4d3d754ab7245e8') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.566494 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1
+  artifactKey: Guid(051aa40ad6e534fd0a1e41770f65ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1 using Guid(051aa40ad6e534fd0a1e41770f65ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e8c167073eb3165e6bdde807e16e59') in 0.000312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.841036 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations
+  artifactKey: Guid(003c7f7a9765e44f3851d13eecf695ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations using Guid(003c7f7a9765e44f3851d13eecf695ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba80f347070ea05d88f278b0fe515d1') in 0.000546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.855308 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs
+  artifactKey: Guid(08dd2a3a36abf4b5d8420528d25d9af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs using Guid(08dd2a3a36abf4b5d8420528d25d9af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017d4e88a235b48076932494bafd7b22') in 0.000525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.223739 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/Penguin.prefab
+  artifactKey: Guid(add5ab1cca4ee994d9f396d44d51bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/Penguin.prefab using Guid(add5ab1cca4ee994d9f396d44d51bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2273c7cc625d55b23d54ed74fbdd541f') in 0.053826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Import Request.
+  Time since last request: 0.905438 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/PolarBear.prefab
+  artifactKey: Guid(13010ba8a92e1e84094704ebcf1e34cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/PolarBear.prefab using Guid(13010ba8a92e1e84094704ebcf1e34cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c61dcca4a0f0a35083e8f5297fc467') in 0.039575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 382.114869 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene.prefab
+  artifactKey: Guid(4cb00250ed8054f4bb204a8b12335d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene.prefab using Guid(4cb00250ed8054f4bb204a8b12335d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da8557122a8fad284c47cf41106e708') in 0.108337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6402
+========================================================================
+Received Import Request.
+  Time since last request: 16.120752 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowCorner.prefab
+  artifactKey: Guid(407f2672db34d0b46aad7351ac16d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowCorner.prefab using Guid(407f2672db34d0b46aad7351ac16d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f00236aae5db1d56cece2340f5c8549') in 0.009274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 137.375046 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene.prefab
+  artifactKey: Guid(4cb00250ed8054f4bb204a8b12335d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene.prefab using Guid(4cb00250ed8054f4bb204a8b12335d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c78b93a4fc032dfc99cde47f72243e4') in 0.065956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6402
+========================================================================
+Received Import Request.
+  Time since last request: 11.485903 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/Penguin.prefab
+  artifactKey: Guid(add5ab1cca4ee994d9f396d44d51bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/Penguin.prefab using Guid(add5ab1cca4ee994d9f396d44d51bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0066db9e280a4415cff16a39c58cbe') in 0.044703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 127
+========================================================================
+Received Import Request.
+  Time since last request: 178.880735 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene 1.prefab
+  artifactKey: Guid(f377738fcadcf42e7b11e1fe85b3d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene 1.prefab using Guid(f377738fcadcf42e7b11e1fe85b3d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2bb0f8462a0d528ea4e3d9384279d7') in 0.063504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6402
