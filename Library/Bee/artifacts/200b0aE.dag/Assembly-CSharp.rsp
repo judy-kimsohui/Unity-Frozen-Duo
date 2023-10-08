@@ -107,7 +107,6 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -122,8 +121,6 @@
 -r:"/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
 -r:"/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
--r:"/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
--r:"/Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 -r:"/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -335,6 +332,8 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Rider.Editor.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Sysroot.Linux_x86_64.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.SysrootPackage.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TestTools.CodeCoverage.Editor.ref.dll"
@@ -342,6 +341,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.Timeline.ref.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.Toolchain.Macos-arm64-Linux-x86_64.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Flow.Editor.ref.dll"
@@ -358,6 +358,10 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/AurynSky/WinterArena/Scripts/ChestDemo.cs"
 "Assets/AurynSky/WinterArena/Scripts/Rotator.cs"
+"Assets/Quirky Series Ultimate/_Scripts/Demo.cs"
+"Assets/Scripts/CameraFollowPlayer.cs"
+"Assets/Scripts/MergeCameras.cs"
+"Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 
 /deterministic
