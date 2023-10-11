@@ -361,10 +361,10 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/AurynSky/WinterArena/Scripts/ChestDemo.cs"
 "Assets/AurynSky/WinterArena/Scripts/Rotator.cs"
+"Assets/GAME/Scripts/CameraFollowPlayer.cs"
+"Assets/GAME/Scripts/MergeCameras.cs"
+"Assets/GAME/Scripts/PlayerController.cs"
 "Assets/Quirky Series Ultimate/_Scripts/Demo.cs"
-"Assets/Scripts/CameraFollowPlayer.cs"
-"Assets/Scripts/MergeCameras.cs"
-"Assets/Scripts/PlayerController.cs"
 -langversion:9.0
 
 /deterministic

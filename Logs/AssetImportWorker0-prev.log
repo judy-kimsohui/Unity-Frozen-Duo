@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/kimsohui/Project/Game Frozen Duo/Frozen Duo/Frozen-Duo
+/Users/kimsohui/Project/Frozen-Duo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61374
-Successfully changed project path to: /Users/kimsohui/Project/Game Frozen Duo/Frozen Duo/Frozen-Duo
-/Users/kimsohui/Project/Game Frozen Duo/Frozen Duo/Frozen-Duo
+50786
+Successfully changed project path to: /Users/kimsohui/Project/Frozen-Duo
+/Users/kimsohui/Project/Frozen-Duo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,16 +56,16 @@ Successfully changed project path to: /Users/kimsohui/Project/Game Frozen Duo/Fr
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8008179200] Host "[IP] 192.168.0.170 [Port] 0 [Flags] 2 [Guid] 222081345 [EditorId] 222081345 [Version] 1048832 [Id] OSXEditor(0,gimsohuiui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8008179200] Host "[IP] 192.168.10.61 [Port] 0 [Flags] 2 [Guid] 3794535591 [EditorId] 3794535591 [Version] 1048832 [Id] OSXEditor(0,gimsohuiui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8008179200] Host "[IP] 192.168.0.170 [Port] 0 [Flags] 2 [Guid] 222081345 [EditorId] 222081345 [Version] 1048832 [Id] OSXEditor(0,gimsohuiui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8008179200] Host "[IP] 192.168.10.61 [Port] 0 [Flags] 2 [Guid] 3794535591 [EditorId] 3794535591 [Version] 1048832 [Id] OSXEditor(0,gimsohuiui-MacBookPro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 9.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/kimsohui/Project/Game Frozen Duo/Frozen Duo/Frozen-Duo/Assets
+[Subsystems] Discovering subsystems at path /Users/kimsohui/Project/Frozen-Duo/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M2 Max (high power)
 Metal devices available: 1
@@ -76,27 +76,27 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56854
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.8f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001321 seconds.
+Registered in 0.001303 seconds.
 - Loaded All Assemblies, in  0.179 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 53 ms
+Android Extension - Scanning For ADB Devices 49 ms
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.237 seconds
-Domain Reload Profiling: 417ms
-	BeginReloadAssembly (42ms)
+- Finished resetting the current domain, in  0.241 seconds
+Domain Reload Profiling: 419ms
+	BeginReloadAssembly (39ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -104,26 +104,26 @@ Domain Reload Profiling: 417ms
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (84ms)
-		LoadAssemblies (41ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (88ms)
+		LoadAssemblies (39ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (83ms)
-			TypeCache.Refresh (82ms)
-				TypeCache.ScanAssembly (74ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (79ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (238ms)
+	FinalizeReload (241ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (206ms)
+		SetupLoadedEditorAssemblies (208ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (144ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (40ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
+			ProcessInitializeOnLoadAttributes (41ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -131,8 +131,8 @@ Domain Reload Profiling: 417ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.288 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.301 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -142,36 +142,36 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.250 seconds
-Domain Reload Profiling: 538ms
-	BeginReloadAssembly (61ms)
+- Finished resetting the current domain, in  0.255 seconds
+Domain Reload Profiling: 556ms
+	BeginReloadAssembly (62ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (21ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (180ms)
-		LoadAssemblies (114ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (124ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (95ms)
-			TypeCache.Refresh (87ms)
-				TypeCache.ScanAssembly (76ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (250ms)
+	FinalizeReload (255ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (183ms)
+		SetupLoadedEditorAssemblies (185ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (18ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (25ms)
-			ProcessInitializeOnLoadAttributes (130ms)
-			ProcessInitializeOnLoadMethodAttributes (9ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -180,68 +180,13 @@ Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3 unused Assets / (42.8 KB). Loaded Objects now: 523.
-Memory consumption went from 74.5 MB to 74.4 MB.
-Total: 1.815416 ms (FindLiveObjects: 0.018500 ms CreateObjectMapping: 0.002042 ms MarkObjects: 1.761833 ms  DeleteObjects: 0.032833 ms)
+Unloading 3 unused Assets / (42.8 KB). Loaded Objects now: 526.
+Memory consumption went from 75.0 MB to 75.0 MB.
+Total: 1.863875 ms (FindLiveObjects: 0.022208 ms CreateObjectMapping: 0.002125 ms MarkObjects: 1.802000 ms  DeleteObjects: 0.037208 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 250625.975159 seconds.
-  path: Assets/Scenes/DefaultGameScene.unity
-  artifactKey: Guid(fca12455e3244412ca6193221295fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DefaultGameScene.unity using Guid(fca12455e3244412ca6193221295fb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdece0274c270c848e5901b4f9e0b9a') in 0.000932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.601823 seconds.
-  path: Assets/AurynSky/WinterArena
-  artifactKey: Guid(8de80adb6e7d34c1f94ea01062e5a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena using Guid(8de80adb6e7d34c1f94ea01062e5a261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933c51bf1b64f726373cd0e6d3bf6f21') in 0.000590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.795774 seconds.
-  path: Assets/AurynSky/WinterArena/Scenes
-  artifactKey: Guid(dd7e7047d55028d4797388d2a61731b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Scenes using Guid(dd7e7047d55028d4797388d2a61731b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bf7f45ce676255def370ce1cc338bc') in 0.000516 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.784062 seconds.
-  path: Assets/AurynSky/WinterArena/Scenes/DemoScene_Winter.unity
-  artifactKey: Guid(a896278eab6e62e4aa8c5a0d3188d5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Scenes/DemoScene_Winter.unity using Guid(a896278eab6e62e4aa8c5a0d3188d5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d7dd32368cb90c7562e18a79010388') in 0.000618 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
-Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
-Refreshing native plugins compatible for Editor in 3.34 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 523.
-Memory consumption went from 71.8 MB to 71.8 MB.
-Total: 2.697500 ms (FindLiveObjects: 0.020750 ms CreateObjectMapping: 0.002542 ms MarkObjects: 2.665333 ms  DeleteObjects: 0.008459 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -257,731 +202,18 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 241.109717 seconds.
-  path: Assets/Textures/Skybox
-  artifactKey: Guid(76bc4381af994450fa53bf66239af481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox using Guid(76bc4381af994450fa53bf66239af481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50cae07a0a70f2a6fb70b1afcd7aee6') in 0.000325 seconds
+  Time since last request: 318091.627226 seconds.
+  path: Assets/Scripts/CameraFollowPlayer.cs
+  artifactKey: Guid(b82d23088632e41b08af937700ad42f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CameraFollowPlayer.cs using Guid(b82d23088632e41b08af937700ad42f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b9a03c713d2f981216b4357da64cd8') in 0.002007 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 131.140733 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/Prefabs
-  artifactKey: Guid(3f5fb976ca04ca642bbef35580903084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Prefabs using Guid(3f5fb976ca04ca642bbef35580903084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f630192e3d274ff3932c5cc64f8ea443') in 0.000243 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.697606 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/Snow.prefab
-  artifactKey: Guid(be5366f4dddf8ca4ebe9c7f86e0904ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/Snow.prefab using Guid(be5366f4dddf8ca4ebe9c7f86e0904ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0d76019e2f485ef5fa86d4ee72cfe6') in 0.044801 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.044704 seconds.
-  path: Assets/AurynSky/WinterArena/Materials/CubeParticlesWinter.mat
-  artifactKey: Guid(10f192c0980be6641b7577a6d0400b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Materials/CubeParticlesWinter.mat using Guid(10f192c0980be6641b7577a6d0400b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc1e28d5e2d26a2f287a25bb8a9f76f') in 0.014761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.513695 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/Tower_Window.prefab
-  artifactKey: Guid(9d70f7cc41c41484bbf404b935f0d590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/Tower_Window.prefab using Guid(9d70f7cc41c41484bbf404b935f0d590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169ec444be35510ce7d66654f52a6a23') in 0.058664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 11.279221 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/WinterCubeLarge_v2.prefab
-  artifactKey: Guid(01dd818fb945da74490ada314c52a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/WinterCubeLarge_v2.prefab using Guid(01dd818fb945da74490ada314c52a16e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df9327330b3e0c0c465cf844a82febf') in 0.004616 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 4.466345 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/Fire.prefab
-  artifactKey: Guid(8e83fd7c6161f7943b4f5b81970ac712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/Fire.prefab using Guid(8e83fd7c6161f7943b4f5b81970ac712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1fd9f2240c1edb8dbc7b44ab378575') in 0.004054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.807838 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/Fire&Smoke.prefab
-  artifactKey: Guid(4a8fc365f726ad54693945c87f027798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/Fire&Smoke.prefab using Guid(4a8fc365f726ad54693945c87f027798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e54db10208ecdd309fd9a5ac1afb79') in 0.005966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 2.928790 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/Shovel.prefab
-  artifactKey: Guid(77960433296b2e94db1763ac885e8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/Shovel.prefab using Guid(77960433296b2e94db1763ac885e8c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2658e11291bdf038ee633229581842b') in 0.007355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.208298 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/Smoke.prefab
-  artifactKey: Guid(ed488ac10aefc794eb9d16dd3719e791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/Smoke.prefab using Guid(ed488ac10aefc794eb9d16dd3719e791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f40018c3a7ef0ca9679b2d28f2a254f') in 0.003534 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 4.759290 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/SnowPiles
-  artifactKey: Guid(86cb62b206c29254fb73ba275506e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/SnowPiles using Guid(86cb62b206c29254fb73ba275506e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194026656e77d4e72654901aae02f3e8') in 0.000284 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.816054 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/WinterBrazier.prefab
-  artifactKey: Guid(92484f07dac8f2342af273b0bc4d24ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/WinterBrazier.prefab using Guid(92484f07dac8f2342af273b0bc4d24ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc0f7a027555e7a2a28c2ccd43d1857') in 0.007043 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
-========================================================================
-Received Import Request.
-  Time since last request: 0.786255 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/WinterBrazier_v2.prefab
-  artifactKey: Guid(2876e03279b43b748835fd4bfeb7b602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/WinterBrazier_v2.prefab using Guid(2876e03279b43b748835fd4bfeb7b602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b836ee2c0f7cf5a4351a19435fe0f74f') in 0.006177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
-========================================================================
-Received Import Request.
-  Time since last request: 0.474544 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/WinterBridgeWide_Section.prefab
-  artifactKey: Guid(e685212d9f39dc942b2b23c23a7a719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/WinterBridgeWide_Section.prefab using Guid(e685212d9f39dc942b2b23c23a7a719d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae7f74d86662c634e1edb49b7844c9eb') in 0.004073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.810183 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/WinterCannonBall.prefab
-  artifactKey: Guid(60c499c24eeb0da40a14722f34d14373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/WinterCannonBall.prefab using Guid(60c499c24eeb0da40a14722f34d14373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa99a16f61be6b8edc98c4d99a0cdf0') in 0.004887 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.988319 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/WinterBridge_Section.prefab
-  artifactKey: Guid(381ac0576f313884f9fd57cdbc0b44fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/WinterBridge_Section.prefab using Guid(381ac0576f313884f9fd57cdbc0b44fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf6e36f0b729bda581c298cb23f75e7') in 0.004220 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 7.656836 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/WinterCrate_SM.prefab
-  artifactKey: Guid(7abef2adc7c835748b443de4ed8d7585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/WinterCrate_SM.prefab using Guid(7abef2adc7c835748b443de4ed8d7585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f347456f90b291bcacff885795042282') in 0.008872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.694997 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/WinterCrate_MD.prefab
-  artifactKey: Guid(d45e0d96dfe73c145b5cbc18a2e41084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/WinterCrate_MD.prefab using Guid(d45e0d96dfe73c145b5cbc18a2e41084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2558c3cc0d652f68e69536afd5b9a7') in 0.008586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 3.618464 seconds.
-  path: Assets/AurynSky/WinterArena/Models
-  artifactKey: Guid(97da53d92ea62d44ca9e5f5d0efc2760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models using Guid(97da53d92ea62d44ca9e5f5d0efc2760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54362cb1649b459df19102d97cf84f01') in 0.000608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.652176 seconds.
-  path: Assets/AurynSky/WinterArena/Models/SnowCorner_v2.fbx
-  artifactKey: Guid(47bfee777d4120a409c6a7536e167684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/SnowCorner_v2.fbx using Guid(47bfee777d4120a409c6a7536e167684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4eba89dd4c3b3a1b16d3733bcf640d9') in 0.118932 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 102.446848 seconds.
-  path: Assets/Textures/Skybox/Above Day C_Cam_0_Front+Z.png
-  artifactKey: Guid(5738142c5715b484ea5779002f6f8b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/Above Day C_Cam_0_Front+Z.png using Guid(5738142c5715b484ea5779002f6f8b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e50e35086848a2650ef2600e7175350') in 0.008481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.437771 seconds.
-  path: Assets/Textures/Skybox/Above Day C Equirect.png
-  artifactKey: Guid(24036077f3e1b4f93b82f23a4c1a2a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/Above Day C Equirect.png using Guid(24036077f3e1b4f93b82f23a4c1a2a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39b3ced7eda2fbb08de65852e9e99f8') in 0.007149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 23.855729 seconds.
-  path: Assets/AurynSky/WinterArena/Scripts
-  artifactKey: Guid(2054bba749a942b4fb5a3016ace249c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Scripts using Guid(2054bba749a942b4fb5a3016ace249c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115909fa3ea990fe830b048d3ba763d4') in 0.000724 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.263756 seconds.
-  path: Assets/AurynSky/WinterArena/Scenes/DemoScene_Winter 1.unity
-  artifactKey: Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Scenes/DemoScene_Winter 1.unity using Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20e94a157ce2529a6a5eeb14b09494d') in 0.000300 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 15.979545 seconds.
-  path: Assets/Scenes/moving.unity
-  artifactKey: Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/moving.unity using Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc9d86f2ef0f3a82d938f6e3d99f9b0') in 0.000277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 17.887124 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Mega Toon Tilemap 01.mat
-  artifactKey: Guid(e11820def211aac499d1bcf50c3e3f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Mega Toon Tilemap 01.mat using Guid(e11820def211aac499d1bcf50c3e3f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1baec7395a7bd7edb4e9d2344dfe26') in 0.004663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Waypoint.mat
-  artifactKey: Guid(92e53f10fc59cb84fa5a5c3696a57041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/Materials/Waypoint.mat using Guid(92e53f10fc59cb84fa5a5c3696a57041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6205c6cb8c2a0139346656a8b1986936') in 0.003135 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Materials/Yellow.mat
-  artifactKey: Guid(6a0e20b2a97c6436d8e7998e81fbc69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Yellow.mat using Guid(6a0e20b2a97c6436d8e7998e81fbc69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6286aac835cbfeaf65cd00a2dc1142f6') in 0.002984 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.152940 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Button Platform 01.FBX
-  artifactKey: Guid(f7c7946de8294fa4887750e212a001a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Button Platform 01.FBX using Guid(f7c7946de8294fa4887750e212a001a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d35214544c188b420dc2445673a686') in 0.000649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.054384 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Waypoint 01.FBX
-  artifactKey: Guid(792e22b4acf03b74db5f620ccdef7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Waypoint 01.FBX using Guid(792e22b4acf03b74db5f620ccdef7539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accdb3cf3c53eb025d71c5466276380c') in 0.000315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.318416 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Trap 01.FBX
-  artifactKey: Guid(833b6754a6aae0d4eb62ce233eae01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Trap 01.FBX using Guid(833b6754a6aae0d4eb62ce233eae01c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816a074240956483c38a5fd2a3e30da6') in 0.000613 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.042884 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCastleDoor_R.fbx
-  artifactKey: Guid(3995bf63cdc77a049b62ba2709f69583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCastleDoor_R.fbx using Guid(3995bf63cdc77a049b62ba2709f69583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d906dd1723114ade0f0e0da12845eb') in 0.009173 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCastleWindow_v2.fbx
-  artifactKey: Guid(c4d02b46eb54340419e128b1878e70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCastleWindow_v2.fbx using Guid(c4d02b46eb54340419e128b1878e70ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e6cffd1bb7c27068c7e08954d564ec') in 0.007147 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCastle.fbx
-  artifactKey: Guid(505c98fb2ff991b419e21527526a2d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCastle.fbx using Guid(505c98fb2ff991b419e21527526a2d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d880242d99348349acf712984be4d37') in 0.007766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCastleDoor_L.fbx
-  artifactKey: Guid(8f4da04830729654296c27d043875c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCastleDoor_L.fbx using Guid(8f4da04830729654296c27d043875c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d59659dd54e32cc3a5567690c5e573') in 0.007241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCatapultSki.fbx
-  artifactKey: Guid(9040094e8183088489935f9f6d6a6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultSki.fbx using Guid(9040094e8183088489935f9f6d6a6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ecc1da3d926a823eca6c5dbf8a6a6f') in 0.006898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCatapultBase.fbx
-  artifactKey: Guid(e2de28b2bb15f6d4f970ab17be6b9cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultBase.fbx using Guid(e2de28b2bb15f6d4f970ab17be6b9cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4967dc1b5e6716adfd6c80ef087c0998') in 0.006703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCastleWindow.fbx
-  artifactKey: Guid(e72cd5d9ca8a31c439d64409a820e614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCastleWindow.fbx using Guid(e72cd5d9ca8a31c439d64409a820e614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1cb191aa5cedfce52c8601c419cf37') in 0.006152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterChestBottom_v2.fbx
-  artifactKey: Guid(8223cded31394424ab47abd1fd6a2873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterChestBottom_v2.fbx using Guid(8223cded31394424ab47abd1fd6a2873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebaa0afa8b92182be0d6836b708b599') in 0.007146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCastle_v2.fbx
-  artifactKey: Guid(648498381b2b86740b13fcd28c3e047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCastle_v2.fbx using Guid(648498381b2b86740b13fcd28c3e047e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00aace5ef3570838fc529a22dfd6e408') in 0.006990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterChestBottom.fbx
-  artifactKey: Guid(442d058830f1abb4a80196d11a3c9659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterChestBottom.fbx using Guid(442d058830f1abb4a80196d11a3c9659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d499472e33c92552a5215a225e52e1f') in 0.006144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCubeMedium.fbx
-  artifactKey: Guid(a191ff0f63e250849a8393e269f1d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCubeMedium.fbx using Guid(a191ff0f63e250849a8393e269f1d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0516b75f3fa80dbb126b3889ffd7005') in 0.006094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCatapultWheel_v2.fbx
-  artifactKey: Guid(128b7ab7790e5654d89fb88d7769d284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultWheel_v2.fbx using Guid(128b7ab7790e5654d89fb88d7769d284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9d12d03347161c9ed87591c3d04f61') in 0.006384 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCannonBall.fbx
-  artifactKey: Guid(3ac86b5d48b1c49478cdc2d039a1d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCannonBall.fbx using Guid(3ac86b5d48b1c49478cdc2d039a1d595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb7ce6cd17ea77cf94b71821043a0f1') in 0.006295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCatapultArm_v2.fbx
-  artifactKey: Guid(5cfaeb9cc4d0f2949a8144cade6f16e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultArm_v2.fbx using Guid(5cfaeb9cc4d0f2949a8144cade6f16e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc4806debcb4f763f0579f1a5adb6e5') in 0.006111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Grass 01.FBX
-  artifactKey: Guid(c2cf9f73c2c052c47baf679fa7478662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshtint Free Tile Map Mega Toon Series/FBX/Grass 01.FBX using Guid(c2cf9f73c2c052c47baf679fa7478662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fa8cee7f3ecea121e0a22717278b64') in 0.000153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterChestBottom_v3.fbx
-  artifactKey: Guid(f1317fa44d0c23a4fb20ea6077304b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterChestBottom_v3.fbx using Guid(f1317fa44d0c23a4fb20ea6077304b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a590b76ba0c3d844f7b55efb2042542f') in 0.006073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000124 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCatapultArm.fbx
-  artifactKey: Guid(17137958679cebd48a0e0fac024b24e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultArm.fbx using Guid(17137958679cebd48a0e0fac024b24e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b321aafd3436ceeb301f9d5c05f9c4aa') in 0.006483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCastleDoor_v2_R.fbx
-  artifactKey: Guid(4dcee547545fdf040ab908a253d4677b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCastleDoor_v2_R.fbx using Guid(4dcee547545fdf040ab908a253d4677b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47332766fcc5afdf806fa24ab051ce79') in 0.006837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.836850 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCannonBall_v2.fbx
-  artifactKey: Guid(02cfb312cd8763245af07555f4e84555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCannonBall_v2.fbx using Guid(02cfb312cd8763245af07555f4e84555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f778de0a11dd683851527c6c82a4b566') in 0.007961 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterChestTop.fbx
-  artifactKey: Guid(14550da5557e9a149b02ae88b5accbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterChestTop.fbx using Guid(14550da5557e9a149b02ae88b5accbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0073371337fecfe1f0ecf5da308bccb') in 0.007438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.024282 seconds.
-  path: Assets/AurynSky/WinterArena/Models/Castle_W.fbx
-  artifactKey: Guid(bdae19fad075d0a44ab72d7344b3fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/Castle_W.fbx using Guid(bdae19fad075d0a44ab72d7344b3fdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8adfa2a3f859818b3607e43598ee3e') in 0.007689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterBanner.fbx
-  artifactKey: Guid(56a61d61b962fb64ca53771164173483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterBanner.fbx using Guid(56a61d61b962fb64ca53771164173483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0392ffe819763f70ab65881347858d6c') in 0.061143 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/AurynSky/WinterArena/Models/FlagPole.fbx
-  artifactKey: Guid(b1fccda3ec0dee645894bfec54757496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/FlagPole.fbx using Guid(b1fccda3ec0dee645894bfec54757496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c31d9bde0bf2cb1d4fa45b8ab45c93e') in 0.006305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.424585 seconds.
-  path: Assets/AurynSky/WinterArena/Models/SnowPile.fbx
-  artifactKey: Guid(3d589e666a18cef4b82a62ed67cf75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/SnowPile.fbx using Guid(3d589e666a18cef4b82a62ed67cf75a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8904a553e95f9b78a8244860416fa3aa') in 0.007703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/AurynSky/WinterArena/Models/SnowLine.fbx
-  artifactKey: Guid(e51a4b17b643e1b4cb72f15cde8b9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/SnowLine.fbx using Guid(e51a4b17b643e1b4cb72f15cde8b9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f26cc61de6929502d6845fbd60c5f4') in 0.006788 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.025839 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCrate.fbx
-  artifactKey: Guid(52162aba1a45ec94c9c25f23c36267f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCrate.fbx using Guid(52162aba1a45ec94c9c25f23c36267f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d931df70ed37d421d64b0319a2d79ab') in 0.008433 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/AurynSky/WinterArena/Models/Tower_W.fbx
-  artifactKey: Guid(c73dae5f4a5c46a44b41456bf30328c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/Tower_W.fbx using Guid(c73dae5f4a5c46a44b41456bf30328c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0087c53e2b2458bb7f127dcc188d3f00') in 0.006695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterBrazier.fbx
-  artifactKey: Guid(4156a4f102566af40af7101768132060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterBrazier.fbx using Guid(4156a4f102566af40af7101768132060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfcc34dc88b263bf76b45e588400d0a') in 0.005913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCoin.fbx
-  artifactKey: Guid(d56b202810e8da14c95841afa026cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCoin.fbx using Guid(d56b202810e8da14c95841afa026cd52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843c3a7c29c72eaef08f6188d15186dc') in 0.006140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.010409 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterTower_v2.fbx
-  artifactKey: Guid(dc85ee47e579c864681c1621aa9e7937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterTower_v2.fbx using Guid(dc85ee47e579c864681c1621aa9e7937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a9e63d94325abd6ac420b9b05d8eba') in 0.007035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCubeSmall_v2.fbx
-  artifactKey: Guid(765fbfd987697ba4ba0ad141bde91361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCubeSmall_v2.fbx using Guid(765fbfd987697ba4ba0ad141bde91361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fcac7cf3aa6b213833dd056472d25c') in 0.006785 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.018545 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterTreeApplesShortG_v2.fbx
-  artifactKey: Guid(5bf989cc04f2f884c9ae160dc0a6739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterTreeApplesShortG_v2.fbx using Guid(5bf989cc04f2f884c9ae160dc0a6739b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dbc72b86da305ce9c68f6d13fd7d3b3') in 0.007897 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterTreeAppleTallG_v2.fbx
-  artifactKey: Guid(34356a6f96d526843b9580f10abe4e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterTreeAppleTallG_v2.fbx using Guid(34356a6f96d526843b9580f10abe4e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fd01fdc6c40552ef97b0c34666b437') in 0.007251 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterTreeAppleTall.fbx
-  artifactKey: Guid(b789f8de7fc503b46a542deb4267fd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterTreeAppleTall.fbx using Guid(b789f8de7fc503b46a542deb4267fd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc38ac951b3cb76edf07d5d912922ca') in 0.007591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterTreeAppleTallG.fbx
-  artifactKey: Guid(7e14d8ded08acce4ab705226f9df80e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterTreeAppleTallG.fbx using Guid(7e14d8ded08acce4ab705226f9df80e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd523eed383a6a6d3d6d82241cb096d04') in 0.006775 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.578859 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterTreeDShort.fbx
-  artifactKey: Guid(6f64ac6a9f346084bbe8b5a4890bfead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterTreeDShort.fbx using Guid(6f64ac6a9f346084bbe8b5a4890bfead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd036ee4454c478b86fc8afc557a882cc') in 0.007734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.034106 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterTreeDTallG.fbx
-  artifactKey: Guid(f7a2dc905ef52b84ca26a36c73df2afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterTreeDTallG.fbx using Guid(f7a2dc905ef52b84ca26a36c73df2afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316b3f9b637930510d22548d05512a6f') in 0.007626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterTreeApplesShort.fbx
-  artifactKey: Guid(74aac7f73aa0df4449a51eca299fa4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterTreeApplesShort.fbx using Guid(74aac7f73aa0df4449a51eca299fa4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edc28a67f816f794c4d0b13b7824389') in 0.007003 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterTower.fbx
-  artifactKey: Guid(81ab000137f3aac4fbe46a4e750d464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterTower.fbx using Guid(81ab000137f3aac4fbe46a4e750d464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce8640aba0529886216c7510155372bc') in 0.006933 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterTreePineTall.fbx
-  artifactKey: Guid(de7e5cce8d8676244a218979562fa6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterTreePineTall.fbx using Guid(de7e5cce8d8676244a218979562fa6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad5676e061c31aee15d81c7a99a16c8') in 0.006759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.017669 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterCubeSmall.fbx
-  artifactKey: Guid(19a2a691f7799ef4cafd8491a4431b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterCubeSmall.fbx using Guid(19a2a691f7799ef4cafd8491a4431b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd436f5cb30a76eddeac4f5e0d5c25934') in 0.007138 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterGroundDirt.fbx
-  artifactKey: Guid(fa84981206a101a43b4b54b51dfccbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterGroundDirt.fbx using Guid(fa84981206a101a43b4b54b51dfccbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64858e3d7e205a67a2f5e59e6995d06d') in 0.007100 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.024254 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterIceTreePineTall.fbx
-  artifactKey: Guid(532b0a1e29745774fad60bcb89b319fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterIceTreePineTall.fbx using Guid(532b0a1e29745774fad60bcb89b319fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d0571503138fe4bfc3bcbc67639d38') in 0.007239 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/AurynSky/WinterArena/Models/BannerHolder.fbx
-  artifactKey: Guid(16645dea5f57ecb4d816b8dcf5050545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/BannerHolder.fbx using Guid(16645dea5f57ecb4d816b8dcf5050545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ab1bbc3784e5662059a526fa7d270e') in 0.006649 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.003779 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterGroundDirtSnow.fbx
-  artifactKey: Guid(e50cc2f875a3570429028af89c95353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterGroundDirtSnow.fbx using Guid(e50cc2f875a3570429028af89c95353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a96c10fe57209edc171a9b64c6fc5f') in 0.006474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterGrass04.fbx
-  artifactKey: Guid(2c1d584bdf0d86644962a92568011503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterGrass04.fbx using Guid(2c1d584bdf0d86644962a92568011503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c267b271b8e4a2a8b84e988f2c7598b') in 0.006909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.021221 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterGroundRockSnow.fbx
-  artifactKey: Guid(7e853044eb49cdc4693a9c05951e10fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterGroundRockSnow.fbx using Guid(7e853044eb49cdc4693a9c05951e10fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb247da4ca55d1c0e2027a1acbd13c81') in 0.006761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterGroundIce.fbx
-  artifactKey: Guid(6e287a6e1216437419e06afb9386b9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterGroundIce.fbx using Guid(6e287a6e1216437419e06afb9386b9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bd76bb4d4913ded3853c02ae3cee24') in 0.006503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.440681 seconds.
-  path: Assets/AurynSky/WinterArena/Models/WinterIceTreePineShort.fbx
-  artifactKey: Guid(0f5f08b83d08ca74d9aa1c7d50e1e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Models/WinterIceTreePineShort.fbx using Guid(0f5f08b83d08ca74d9aa1c7d50e1e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e63aa7c0d1fbade546402c58e697e2e') in 0.013326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.035358 seconds.
-  path: Assets/AurynSky/WinterArena/Materials/ColorPaletteNormal.mat
-  artifactKey: Guid(a289c7f765c09e74186a09dce58104d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Materials/ColorPaletteNormal.mat using Guid(a289c7f765c09e74186a09dce58104d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f106d0d0487fe0ae914cf7c5fb20b99') in 0.004218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Materials/M_Penguin.mat
-  artifactKey: Guid(76198734b86c6f84092e520e9fff3cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Materials/M_Penguin.mat using Guid(76198734b86c6f84092e520e9fff3cbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02f30e1ec39d21356948d7476fe009c') in 0.099536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 72.808521 seconds.
-  path: Assets/Textures/Skybox/Above Day C_Cam_5_Down-Y.png
-  artifactKey: Guid(6a83afc22d64e4059a7c7aeee98dad2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/Above Day C_Cam_5_Down-Y.png using Guid(6a83afc22d64e4059a7c7aeee98dad2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2feef39e56303eb3dd905b22a5bb32') in 0.005070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.974269 seconds.
-  path: Assets/Textures/Skybox/Above Day C Equirect 1.png
-  artifactKey: Guid(8d565a3faebc24c158faebfb983a706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/Above Day C Equirect 1.png using Guid(8d565a3faebc24c158faebfb983a706a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a17009e7b71c235e2a2891d51ee83a') in 0.005708 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 52.075053 seconds.
-  path: Assets/Textures/Skybox/Above Day C Equirect.png
-  artifactKey: Guid(24036077f3e1b4f93b82f23a4c1a2a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/Above Day C Equirect.png using Guid(24036077f3e1b4f93b82f23a4c1a2a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841e156edf1e6c1a49f2d3b7a7d9d3d4') in 0.040957 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 52.165794 seconds.
-  path: Assets/Textures/Skybox/Above Day C_Cam_1_Back-Z.png
-  artifactKey: Guid(c7c0d80989bfa4733963f339d82198a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/Above Day C_Cam_1_Back-Z.png using Guid(c7c0d80989bfa4733963f339d82198a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe0648dd3b9994f159b94bf8b6f8e26') in 0.004729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.368279 seconds.
-  path: Assets/Textures/Skybox/Above Day C_Cam_2_Left+X.png
-  artifactKey: Guid(911bc7c06b2a34472941711eff599522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/Above Day C_Cam_2_Left+X.png using Guid(911bc7c06b2a34472941711eff599522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d96e0cbc38b77727cd3a9f64e1ca853') in 0.004693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.968112 seconds.
-  path: Assets/Textures/Skybox/Above Day C_Cam_3_Right-X.png
-  artifactKey: Guid(8bba7c7df719043a191d839b6a5d90f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/Above Day C_Cam_3_Right-X.png using Guid(8bba7c7df719043a191d839b6a5d90f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54325b83f4db6fd79d8b4a117c1917d') in 0.005791 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.931706 seconds.
-  path: Assets/Textures/Skybox/Above Day C_Cam_4_Up+Y.png
-  artifactKey: Guid(b58e452e28a6945bdbb40fce899cf5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/Above Day C_Cam_4_Up+Y.png using Guid(b58e452e28a6945bdbb40fce899cf5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f80246bc29dc868c0378fc3e267345d') in 0.005504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 9.405390 seconds.
-  path: Assets/Textures/Skybox/Above Day CSettings.lighting
-  artifactKey: Guid(385cbb268662247beab25e00fbd87d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/Above Day CSettings.lighting using Guid(385cbb268662247beab25e00fbd87d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 2 to 0.
- -> (artifact id: 'ad331c4c47ab73b23ed3ef81b3ffc274') in 0.001749 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Thread 0x29d52b000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.198 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.190 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -990,35 +222,35 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.257 seconds
-Domain Reload Profiling: 456ms
-	BeginReloadAssembly (72ms)
+- Finished resetting the current domain, in  0.268 seconds
+Domain Reload Profiling: 458ms
+	BeginReloadAssembly (69ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (2ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
+		CreateAndSetChildDomain (21ms)
 	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (7ms)
+	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (11ms)
-	LoadAllAssembliesAndSetupDomain (90ms)
-		LoadAssemblies (108ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (8ms)
-			TypeCache.Refresh (5ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (257ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (268ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (183ms)
+		SetupLoadedEditorAssemblies (189ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (25ms)
-			ProcessInitializeOnLoadAttributes (129ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (130ms)
 			ProcessInitializeOnLoadMethodAttributes (9ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
@@ -1026,12 +258,12 @@ Domain Reload Profiling: 456ms
 		AwakeInstancesAfterBackupRestoration (2ms)
 Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
 Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 576.
-Memory consumption went from 80.1 MB to 80.1 MB.
-Total: 1.720000 ms (FindLiveObjects: 0.021333 ms CreateObjectMapping: 0.003125 ms MarkObjects: 1.682375 ms  DeleteObjects: 0.012875 ms)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 529.
+Memory consumption went from 77.7 MB to 77.7 MB.
+Total: 1.814500 ms (FindLiveObjects: 0.022417 ms CreateObjectMapping: 0.002625 ms MarkObjects: 1.780041 ms  DeleteObjects: 0.009250 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1049,121 +281,1539 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 39.143728 seconds.
-  path: Assets/Textures/Skybox/sky1
-  artifactKey: Guid(67316bd0c601346cd9c0d3304490823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/sky1 using Guid(67316bd0c601346cd9c0d3304490823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb555f0e5bdfe67047c84fa1f178ca5') in 0.000906 seconds
+  Time since last request: 917.480448 seconds.
+  path: Assets/Scripts/MergeCameras.cs
+  artifactKey: Guid(10dfb99f83c964f8aa578de06434ee88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MergeCameras.cs using Guid(10dfb99f83c964f8aa578de06434ee88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af3a1c8723cc153b1510482bed3140f') in 0.001995 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.743653 seconds.
-  path: Assets/Textures/Skybox/Sky1
-  artifactKey: Guid(67316bd0c601346cd9c0d3304490823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox/Sky1 using Guid(67316bd0c601346cd9c0d3304490823a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0639fd934029e8f4e64a3704fc0567ad') in 0.000293 seconds
+  Time since last request: 140.776170 seconds.
+  path: Assets/Scenes/moving.unity
+  artifactKey: Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/moving.unity using Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbae97d183096ec5f08172de97f1314') in 0.000296 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 15.038212 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs
-  artifactKey: Guid(62d7837b18cb64d4f8ec763fda8a13ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs using Guid(62d7837b18cb64d4f8ec763fda8a13ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ead3f1f2976e75300e6e606523251b') in 0.000335 seconds
+  Time since last request: 78.283362 seconds.
+  path: Assets/Scenes/moving.unity
+  artifactKey: Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/moving.unity using Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7072c04f8c91c6af47cfd8bca4d22ce9') in 0.002289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.239 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.267 seconds
+Domain Reload Profiling: 506ms
+	BeginReloadAssembly (83ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (135ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (268ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (191ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 532.
+Memory consumption went from 82.7 MB to 82.7 MB.
+Total: 1.950125 ms (FindLiveObjects: 0.019875 ms CreateObjectMapping: 0.002500 ms MarkObjects: 1.914208 ms  DeleteObjects: 0.013250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198.676029 seconds.
+  path: Assets/Scenes/moving.unity
+  artifactKey: Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/moving.unity using Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42e9a16b112d5c8c1a6d26f3a07fd57') in 0.001809 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 9.690069 seconds.
-  path: Assets/Quirky Series Ultimate/_Shader
-  artifactKey: Guid(6108f1e67c74a5a4fb4e63e6cb064c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/_Shader using Guid(6108f1e67c74a5a4fb4e63e6cb064c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8869d69e0e5ce5f82fc50580ff8f872e') in 0.000377 seconds
+  Time since last request: 201.511072 seconds.
+  path: Assets/Scenes/moving.unity
+  artifactKey: Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/moving.unity using Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4c294abc720b77eb8cca36cb8218cc') in 0.002169 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.320111 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1
-  artifactKey: Guid(8faffef539ffb429198831323976ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1 using Guid(8faffef539ffb429198831323976ae1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216ce3259f0deb6ce4d3d754ab7245e8') in 0.000530 seconds
+  Time since last request: 37.880716 seconds.
+  path: Assets/Scenes/moving.unity
+  artifactKey: Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/moving.unity using Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fe2654ef17b12b709458ddfe73c118') in 0.001881 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.566494 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1
-  artifactKey: Guid(051aa40ad6e534fd0a1e41770f65ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1 using Guid(051aa40ad6e534fd0a1e41770f65ab1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e8c167073eb3165e6bdde807e16e59') in 0.000312 seconds
+  Time since last request: 69.926813 seconds.
+  path: Assets/Scenes/moving.unity
+  artifactKey: Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/moving.unity using Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63a2e0a944e4bb9bb33eb1dde7e28d02') in 0.001842 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.841036 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations
-  artifactKey: Guid(003c7f7a9765e44f3851d13eecf695ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations using Guid(003c7f7a9765e44f3851d13eecf695ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba80f347070ea05d88f278b0fe515d1') in 0.000546 seconds
+  Time since last request: 16.417149 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Models/PolarBear_LOD3.fbx
+  artifactKey: Guid(ed6baa23c1885f745b81333ec3484ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Models/PolarBear_LOD3.fbx using Guid(ed6baa23c1885f745b81333ec3484ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642fbad66bc22f21394a4308a8d3e675') in 0.146683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 6.621912 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Models/Penguin_LOD2.fbx
+  artifactKey: Guid(dd490d890c6929443a3f01e619188b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Models/Penguin_LOD2.fbx using Guid(dd490d890c6929443a3f01e619188b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71406104936b61b961c2e6d2886756d7') in 0.012676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.899254 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Models/Penguin_LOD3.fbx
+  artifactKey: Guid(9dd2c46b165fac84f8604589d60452ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Models/Penguin_LOD3.fbx using Guid(9dd2c46b165fac84f8604589d60452ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23104eeccb51e871576945d4db875e86') in 0.016793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 2.386789 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Models/Penguin_LOD1.fbx
+  artifactKey: Guid(1b182de6fcc5c2944a08c5d565b1524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Models/Penguin_LOD1.fbx using Guid(1b182de6fcc5c2944a08c5d565b1524d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8cee7236242fef13475770c44df7ac') in 0.018282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.203 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 463ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (111ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (260ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (184ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 546.
+Memory consumption went from 90.3 MB to 90.3 MB.
+Total: 1.919125 ms (FindLiveObjects: 0.020958 ms CreateObjectMapping: 0.002625 ms MarkObjects: 1.885709 ms  DeleteObjects: 0.009625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.209 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.251 seconds
+Domain Reload Profiling: 460ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (252ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 549.
+Memory consumption went from 95.6 MB to 95.6 MB.
+Total: 1.785459 ms (FindLiveObjects: 0.019208 ms CreateObjectMapping: 0.002375 ms MarkObjects: 1.753834 ms  DeleteObjects: 0.009833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1134.934202 seconds.
+  path: Assets/Quirky Series Ultimate/_Scripts
+  artifactKey: Guid(4487817149df9c44b8eee3eba11ed1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/_Scripts using Guid(4487817149df9c44b8eee3eba11ed1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3818acf7e3947fa32fb16c8eb3b06972') in 0.001879 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.855308 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs
-  artifactKey: Guid(08dd2a3a36abf4b5d8420528d25d9af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs using Guid(08dd2a3a36abf4b5d8420528d25d9af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017d4e88a235b48076932494bafd7b22') in 0.000525 seconds
+  Time since last request: 0.463418 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations
+  artifactKey: Guid(c5cc852e13a4d40d089cb3b1ff56bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/_Animations using Guid(c5cc852e13a4d40d089cb3b1ff56bd55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4bfb3e6ecf26f0828b6eeba9ce540e') in 0.000563 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.223739 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/Penguin.prefab
-  artifactKey: Guid(add5ab1cca4ee994d9f396d44d51bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/Penguin.prefab using Guid(add5ab1cca4ee994d9f396d44d51bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2273c7cc625d55b23d54ed74fbdd541f') in 0.053826 seconds
+  Time since last request: 0.481886 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey
+  artifactKey: Guid(db8a03194223d764b8a9bd6c21aef063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey using Guid(db8a03194223d764b8a9bd6c21aef063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609b73541a8e53d67e1c71cd7080a04a') in 0.000588 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 125
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.905438 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/PolarBear.prefab
-  artifactKey: Guid(13010ba8a92e1e84094704ebcf1e34cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/PolarBear.prefab using Guid(13010ba8a92e1e84094704ebcf1e34cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c61dcca4a0f0a35083e8f5297fc467') in 0.039575 seconds
+  Time since last request: 3.016695 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Cry.anim
+  artifactKey: Guid(1aeb3e8c01f5d534c9a72bbf181c3a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Cry.anim using Guid(1aeb3e8c01f5d534c9a72bbf181c3a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8a55380b2af338f1ebb0344f0c1e1c') in 0.007688 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 127
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 382.114869 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene.prefab
-  artifactKey: Guid(4cb00250ed8054f4bb204a8b12335d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene.prefab using Guid(4cb00250ed8054f4bb204a8b12335d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da8557122a8fad284c47cf41106e708') in 0.108337 seconds
+  Time since last request: 1.238112 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Blink.anim
+  artifactKey: Guid(ea0360a5fdaf2ac40b8e71ac9294e667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Blink.anim using Guid(ea0360a5fdaf2ac40b8e71ac9294e667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f763bd16ce1877425a389ea003a409a8') in 0.004070 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6402
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 16.120752 seconds.
-  path: Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowCorner.prefab
-  artifactKey: Guid(407f2672db34d0b46aad7351ac16d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowCorner.prefab using Guid(407f2672db34d0b46aad7351ac16d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f00236aae5db1d56cece2340f5c8549') in 0.009274 seconds
+  Time since last request: 1.659693 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Annoyed.anim
+  artifactKey: Guid(46d3ef83a1dcd3845b415d3d91a04337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Annoyed.anim using Guid(46d3ef83a1dcd3845b415d3d91a04337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98958f6ea7f7345a98f701e7906d3e86') in 0.003906 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 137.375046 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene.prefab
-  artifactKey: Guid(4cb00250ed8054f4bb204a8b12335d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene.prefab using Guid(4cb00250ed8054f4bb204a8b12335d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c78b93a4fc032dfc99cde47f72243e4') in 0.065956 seconds
+  Time since last request: 9.661371 seconds.
+  path: Assets/Quirky Series Ultimate/_Scripts/Demo.cs
+  artifactKey: Guid(a7e76a4a4e5bb0e458a266391b5f9c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/_Scripts/Demo.cs using Guid(a7e76a4a4e5bb0e458a266391b5f9c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1e812da4e225df5f9647f46fd96549') in 0.000548 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6402
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 11.485903 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/Penguin.prefab
-  artifactKey: Guid(add5ab1cca4ee994d9f396d44d51bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/Penguin.prefab using Guid(add5ab1cca4ee994d9f396d44d51bc66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0066db9e280a4415cff16a39c58cbe') in 0.044703 seconds
+  Time since last request: 62.039450 seconds.
+  path: Assets/Quirky Series Ultimate/_Scripts/DemoController.prefab
+  artifactKey: Guid(3ffd5f966ace6e74dbc3467092bca3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/_Scripts/DemoController.prefab using Guid(3ffd5f966ace6e74dbc3467092bca3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1096b543f96a0952fe1ade55f88111d1') in 0.016207 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 127
+Number of asset objects unloaded after import = 231
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.201 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.246 seconds
+Domain Reload Profiling: 447ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (96ms)
+		LoadAssemblies (113ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (247ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (173ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (116ms)
+			ProcessInitializeOnLoadMethodAttributes (7ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 552.
+Memory consumption went from 100.0 MB to 100.0 MB.
+Total: 1.879208 ms (FindLiveObjects: 0.020458 ms CreateObjectMapping: 0.002333 ms MarkObjects: 1.845417 ms  DeleteObjects: 0.010666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.189 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.254 seconds
+Domain Reload Profiling: 443ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (254ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (184ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 555.
+Memory consumption went from 105.3 MB to 105.3 MB.
+Total: 1.859875 ms (FindLiveObjects: 0.020084 ms CreateObjectMapping: 0.003250 ms MarkObjects: 1.824292 ms  DeleteObjects: 0.008584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.192 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 449ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (84ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (256ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (183ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 558.
+Memory consumption went from 110.4 MB to 110.3 MB.
+Total: 1.839917 ms (FindLiveObjects: 0.020125 ms CreateObjectMapping: 0.002375 ms MarkObjects: 1.808375 ms  DeleteObjects: 0.008625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.193 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.255 seconds
+Domain Reload Profiling: 448ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (85ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (255ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (181ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 561.
+Memory consumption went from 115.4 MB to 115.4 MB.
+Total: 1.873000 ms (FindLiveObjects: 0.020333 ms CreateObjectMapping: 0.002416 ms MarkObjects: 1.840792 ms  DeleteObjects: 0.009167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.186 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.242 seconds
+Domain Reload Profiling: 428ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (242ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (172ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 564.
+Memory consumption went from 120.4 MB to 120.4 MB.
+Total: 1.669375 ms (FindLiveObjects: 0.020875 ms CreateObjectMapping: 0.003084 ms MarkObjects: 1.635541 ms  DeleteObjects: 0.009583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.196 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.261 seconds
+Domain Reload Profiling: 457ms
+	BeginReloadAssembly (72ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (85ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (261ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 567.
+Memory consumption went from 125.5 MB to 125.4 MB.
+Total: 1.846750 ms (FindLiveObjects: 0.019209 ms CreateObjectMapping: 0.002166 ms MarkObjects: 1.814875 ms  DeleteObjects: 0.010208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.194 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.258 seconds
+Domain Reload Profiling: 453ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (85ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (258ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (184ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 570.
+Memory consumption went from 130.5 MB to 130.5 MB.
+Total: 1.765333 ms (FindLiveObjects: 0.022750 ms CreateObjectMapping: 0.002625 ms MarkObjects: 1.731417 ms  DeleteObjects: 0.008125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 178.880735 seconds.
-  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene 1.prefab
-  artifactKey: Guid(f377738fcadcf42e7b11e1fe85b3d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Prefabs/DemoScene 1.prefab using Guid(f377738fcadcf42e7b11e1fe85b3d4fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2bb0f8462a0d528ea4e3d9384279d7') in 0.063504 seconds
+  Time since last request: 346.836576 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Demo/Demo_Penguin.unity
+  artifactKey: Guid(c3e43da6d5915814bb7d8592079778d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Demo/Demo_Penguin.unity using Guid(c3e43da6d5915814bb7d8592079778d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493d533db2be9613ca286a9a05f00aa2') in 0.001766 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6402
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.188 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.253 seconds
+Domain Reload Profiling: 440ms
+	BeginReloadAssembly (69ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 573.
+Memory consumption went from 135.3 MB to 135.2 MB.
+Total: 1.899042 ms (FindLiveObjects: 0.023834 ms CreateObjectMapping: 0.002458 ms MarkObjects: 1.863083 ms  DeleteObjects: 0.009375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17.504538 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Demo/Demo_PolarBear.unity
+  artifactKey: Guid(39b8e78d754c4b4418e88a7629d287d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Demo/Demo_PolarBear.unity using Guid(39b8e78d754c4b4418e88a7629d287d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3769afbdfb6df9dd37cacfaed0424579') in 0.001878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.579674 seconds.
+  path: Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Happy.anim
+  artifactKey: Guid(3dffca6cea27af3488d99af5f763199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/_Animations/Shapekey/Eyes_Happy.anim using Guid(3dffca6cea27af3488d99af5f763199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcabac9411af959be45de0f9105684b') in 0.010732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 91.687860 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AC_PolarBear.controller
+  artifactKey: Guid(ec375d9b5f6cffb4ca16a6034b67ff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AC_PolarBear.controller using Guid(ec375d9b5f6cffb4ca16a6034b67ff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790fb86a01cc717cadc93032ebbb6fde') in 0.033438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 9.721883 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/PolarBear_Animations.fbx
+  artifactKey: Guid(05c4576ac5b0c58449cde65534b5811e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/PolarBear_Animations.fbx using Guid(05c4576ac5b0c58449cde65534b5811e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee236ffc255eb42967ce3064a0b15fec') in 0.047311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 50
+========================================================================
+Received Import Request.
+  Time since last request: 31.615778 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Penguin_Animations.fbx
+  artifactKey: Guid(f59f36aa0db265544b1c07c07a120fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Penguin_Animations.fbx using Guid(f59f36aa0db265544b1c07c07a120fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f364b275de50c0a262a9fd45327876ba') in 0.019318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.199 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.252 seconds
+Domain Reload Profiling: 451ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (108ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (252ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 576.
+Memory consumption went from 140.9 MB to 140.9 MB.
+Total: 1.797583 ms (FindLiveObjects: 0.022916 ms CreateObjectMapping: 0.002042 ms MarkObjects: 1.759916 ms  DeleteObjects: 0.012375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 257.013847 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Walk.anim
+  artifactKey: Guid(761223df782034729a7026111cfe5252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Walk.anim using Guid(761223df782034729a7026111cfe5252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f595c1dc4e110e744ffdb41c6fbb7f8') in 0.009601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 31.148542 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Models/Penguin_LOD0.fbx
+  artifactKey: Guid(5e93d9a265dd2744d88876ce5ad47dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Models/Penguin_LOD0.fbx using Guid(5e93d9a265dd2744d88876ce5ad47dcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17491f0806fdf87d8788f668475f036') in 0.055723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 30.927848 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Penguin_Anim
+  artifactKey: Guid(d9fdb8a60927e4656a0d4bdabc5a6195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Penguin_Anim using Guid(d9fdb8a60927e4656a0d4bdabc5a6195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f519dd272a64cfe935f6467ea7016d') in 0.000533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.208471 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/PolarBear_Anim
+  artifactKey: Guid(20c35b8fa409e42ce9caffb358730782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/PolarBear_Anim using Guid(20c35b8fa409e42ce9caffb358730782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0235ec9c1cafa0698f7870092926ab') in 0.000382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.561997 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/PolarBear_Anim/Walk.anim
+  artifactKey: Guid(761223df782034729a7026111cfe5252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/PolarBear_Anim/Walk.anim using Guid(761223df782034729a7026111cfe5252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bee8dddad101e9b686d442d98cab9e4') in 0.002884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.189 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.249 seconds
+Domain Reload Profiling: 438ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (249ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (175ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 579.
+Memory consumption went from 146.5 MB to 146.4 MB.
+Total: 1.706833 ms (FindLiveObjects: 0.019666 ms CreateObjectMapping: 0.001917 ms MarkObjects: 1.673708 ms  DeleteObjects: 0.011208 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 123.413328 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AC_PolarBear 1.controller
+  artifactKey: Guid(021a6d533faeb434598167467b86c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AC_PolarBear 1.controller using Guid(021a6d533faeb434598167467b86c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e63b622e1b095467e03db980af528b') in 0.032804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 13.632449 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/PolarBear AnimC.controller
+  artifactKey: Guid(021a6d533faeb434598167467b86c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/PolarBear AnimC.controller using Guid(021a6d533faeb434598167467b86c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e4582cdf76e685ada044071e7fb4bd') in 0.029730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 1.211000 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AC_Penguin.controller
+  artifactKey: Guid(83af4e9a548bcd6449be82520effc2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AC_Penguin.controller using Guid(83af4e9a548bcd6449be82520effc2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d46f0cc847099c33f31151ff6c6df28') in 0.034250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 1.609038 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AC_Penguin 1.controller
+  artifactKey: Guid(c84a887cf79ad47f0a974c13d188c176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AC_Penguin 1.controller using Guid(c84a887cf79ad47f0a974c13d188c176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee02602841926fc9e4b5fc0a13559a3a') in 0.025884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 8.752050 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Penguin AnumC.controller
+  artifactKey: Guid(c84a887cf79ad47f0a974c13d188c176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Penguin AnumC.controller using Guid(c84a887cf79ad47f0a974c13d188c176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62b561fe47688b1f2b44268e9e1ad3d') in 0.030559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 5.439280 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Penguin AnimC.controller
+  artifactKey: Guid(c84a887cf79ad47f0a974c13d188c176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Penguin AnimC.controller using Guid(c84a887cf79ad47f0a974c13d188c176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5743147cf2e48726e33230bb699d5e49') in 0.028407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 14.113164 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Anim_PolarBear
+  artifactKey: Guid(20c35b8fa409e42ce9caffb358730782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Anim_PolarBear using Guid(20c35b8fa409e42ce9caffb358730782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9335e87bf64ac2d0871fc736d1673129') in 0.000301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.111980 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Anim_Penguin
+  artifactKey: Guid(d9fdb8a60927e4656a0d4bdabc5a6195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Anim_Penguin using Guid(d9fdb8a60927e4656a0d4bdabc5a6195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519dd58731df2c1e3e4ddd98c7482e28') in 0.000339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.708406 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AnimC_Penguin.controller
+  artifactKey: Guid(c84a887cf79ad47f0a974c13d188c176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AnimC_Penguin.controller using Guid(c84a887cf79ad47f0a974c13d188c176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2689e808941afe14d5967cfcce068d15') in 0.027899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
+========================================================================
+Received Import Request.
+  Time since last request: 1.629391 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AC_PolarBear.controller
+  artifactKey: Guid(ec375d9b5f6cffb4ca16a6034b67ff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AC_PolarBear.controller using Guid(ec375d9b5f6cffb4ca16a6034b67ff8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93c0df46f4ba78536fcfed7a360cba0') in 0.038174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Import Request.
+  Time since last request: 6.679261 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AnimC_PolarBear.controller
+  artifactKey: Guid(021a6d533faeb434598167467b86c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/AnimC_PolarBear.controller using Guid(021a6d533faeb434598167467b86c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69849d0c2a8ae5b92a36c9d24be360e3') in 0.029027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.189 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.270 seconds
+Domain Reload Profiling: 459ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (81ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (7ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (270ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (193ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (30ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 582.
+Memory consumption went from 151.6 MB to 151.6 MB.
+Total: 1.838875 ms (FindLiveObjects: 0.024250 ms CreateObjectMapping: 0.002459 ms MarkObjects: 1.795542 ms  DeleteObjects: 0.016167 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 65.116001 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Walk.anim
+  artifactKey: Guid(b54da19994d0e4537a61799f01cff9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Walk.anim using Guid(b54da19994d0e4537a61799f01cff9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139321f5090e66b1020c4ad1a5646672') in 0.008726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.073303 seconds.
+  path: Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Animation_Modified
+  artifactKey: Guid(23b09672e4a14422a8abe252ffc57613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Quirky Series Ultimate/Quirky Series Vol.1/Arctic Vol.1/Animations/Animation_Modified using Guid(23b09672e4a14422a8abe252ffc57613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf6311de69ae4581ca7ea8834f4e536') in 0.000376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 39.191869 seconds.
+  path: Assets/GAME
+  artifactKey: Guid(7ccc546da864c42e5b1d915e91e95e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME using Guid(7ccc546da864c42e5b1d915e91e95e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24565e5635add34a2718b757b2ab8377') in 0.000334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.791232 seconds.
+  path: Assets/Scenes_SOURCE/movingSettings.lighting
+  artifactKey: Guid(1ecdb61b5798844c38dcd621c20b57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes_SOURCE/movingSettings.lighting using Guid(1ecdb61b5798844c38dcd621c20b57e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Progressive CPU lightmapper is not supported on Apple silicon, switching to the Progressive GPU lightmapper.
+LightingSettings: switching bake backend from 2 to 1.
+ -> (artifact id: '80f2f4d0cf63b9895ee7096b63d27929') in 0.001132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.201 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.248 seconds
+Domain Reload Profiling: 448ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (93ms)
+		LoadAssemblies (105ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (248ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (173ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 585.
+Memory consumption went from 156.8 MB to 156.8 MB.
+Total: 1.796167 ms (FindLiveObjects: 0.032166 ms CreateObjectMapping: 0.002584 ms MarkObjects: 1.751708 ms  DeleteObjects: 0.009458 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32.588035 seconds.
+  path: Assets/GAME/moving.unity
+  artifactKey: Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/moving.unity using Guid(3a34deba813cd4356b04cab8c5b3096f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99360b70008928ac9ac0658c25f25540') in 0.001011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 102.439179 seconds.
+  path: Assets/GAME/Animation_Modified/Anim_Penguin/Walk_Modif.anim
+  artifactKey: Guid(b54da19994d0e4537a61799f01cff9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Animation_Modified/Anim_Penguin/Walk_Modif.anim using Guid(b54da19994d0e4537a61799f01cff9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc8a38a0746b0ef250b7c60e90e4ad6') in 0.008542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 12.874360 seconds.
+  path: Assets/GAME/Animation_Modified/Anim_PolarBear/Walk_Modif.anim
+  artifactKey: Guid(761223df782034729a7026111cfe5252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Animation_Modified/Anim_PolarBear/Walk_Modif.anim using Guid(761223df782034729a7026111cfe5252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38385a9113230d44377cc7ad8e577480') in 0.003411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.234758 seconds.
+  path: Assets/GAME/Animation_Modified/AnimC_PolarBear.controller
+  artifactKey: Guid(021a6d533faeb434598167467b86c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Animation_Modified/AnimC_PolarBear.controller using Guid(021a6d533faeb434598167467b86c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a73a920c21b947ea327228f8d08bfe5') in 0.042456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 82
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2817df000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.193 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 453ms
+	BeginReloadAssembly (71ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (11ms)
+	LoadAllAssembliesAndSetupDomain (85ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (261ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (185ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 22732, GUID 9c442dc870b456e48b615cd8add0e9ef)
+Failed to load shader (instanceID 22734, GUID 493b79ea9c9be44ed8b702014d3ac49c)
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (22.7 KB). Loaded Objects now: 588.
+Memory consumption went from 161.9 MB to 161.9 MB.
+Total: 1.994042 ms (FindLiveObjects: 0.024583 ms CreateObjectMapping: 0.002708 ms MarkObjects: 1.957500 ms  DeleteObjects: 0.008875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 29.599898 seconds.
+  path: Assets/GAME/Animation_Modified/AnimC_Penguin.controller
+  artifactKey: Guid(c84a887cf79ad47f0a974c13d188c176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GAME/Animation_Modified/AnimC_Penguin.controller using Guid(c84a887cf79ad47f0a974c13d188c176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685a94247fee024c2787877fe77e3d86') in 0.044825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 81
