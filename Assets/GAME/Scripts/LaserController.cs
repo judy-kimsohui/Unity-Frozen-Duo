@@ -16,6 +16,20 @@ namespace GAME.Scripts
         // Update is called once per frame
         void Update()
         {
+            CheckRay();
+            CheckOrientation();
+        }
+
+        private void CheckOrientation()
+        {
+            var currentAngle = transform.eulerAngles;
+            currentAngle.x = 0;
+            currentAngle.z = 0;
+            transform.eulerAngles = currentAngle;
+        }
+
+        private void CheckRay()
+        {
             if (Physics.Raycast(new Ray(transform.position, transform.forward), out var hit, MaxLaserLength))
             {
                 var scale = laserOffset.transform.localScale;
@@ -27,7 +41,7 @@ namespace GAME.Scripts
                 var scale = laserOffset.transform.localScale;
                 scale.z = MaxLaserLength;
                 laserOffset.transform.localScale = scale; 
-            }
+            } 
         }
     }
 }
