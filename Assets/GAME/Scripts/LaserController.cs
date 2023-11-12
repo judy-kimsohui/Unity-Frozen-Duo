@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace GAME.Scripts
@@ -33,9 +34,11 @@ namespace GAME.Scripts
 
         private void CheckRay()
         {
+            Debug.DrawRay(transform.position, transform.forward, Color.blue, 1f);
             if (Physics.Raycast(new Ray(transform.position, transform.forward), out var hit, MaxLaserLength))
             {
                 if(hit.transform.CompareTag("MeltingIce") && !isHitMeltingIce) HitMeltingIce(hit.transform);
+                else if(!hit.transform.CompareTag("MeltingIce") && isHitMeltingIce) ReleaseMeltingIce();
                 var scale = laserOffset.transform.localScale;
                 scale.z = hit.distance / 2;
                 laserOffset.transform.localScale = scale;
@@ -58,7 +61,7 @@ namespace GAME.Scripts
 
         private void ReleaseMeltingIce()
         { 
-            currentMeltingIceController.RemoveHit();
+            if(!currentMeltingIceController.IsDestroyed()) currentMeltingIceController.RemoveHit();
             isHitMeltingIce = false;
         }
     }
