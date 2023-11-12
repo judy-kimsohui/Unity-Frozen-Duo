@@ -9,10 +9,11 @@ namespace GAME.Scripts
 
         private bool isHitMeltingIce = false;
         private MeltingIceController currentMeltingIceController = null;
-
+        
         // Start is called before the first frame update
         void Start()
         {
+        
         }
 
         // Update is called once per frame
@@ -34,7 +35,7 @@ namespace GAME.Scripts
         {
             if (Physics.Raycast(new Ray(transform.position, transform.forward), out var hit, MaxLaserLength))
             {
-                if (hit.transform.CompareTag("MeltingIce") && !isHitMeltingIce) HitMeltingIce(hit.transform);
+                if(hit.transform.CompareTag("MeltingIce") && !isHitMeltingIce) HitMeltingIce(hit.transform);
                 var scale = laserOffset.transform.localScale;
                 scale.z = hit.distance / 2;
                 laserOffset.transform.localScale = scale;
@@ -44,8 +45,8 @@ namespace GAME.Scripts
                 if (isHitMeltingIce) ReleaseMeltingIce();
                 var scale = laserOffset.transform.localScale;
                 scale.z = MaxLaserLength;
-                laserOffset.transform.localScale = scale;
-            }
+                laserOffset.transform.localScale = scale; 
+            } 
         }
 
         private void HitMeltingIce(Transform transform)
@@ -56,7 +57,7 @@ namespace GAME.Scripts
         }
 
         private void ReleaseMeltingIce()
-        {
+        { 
             currentMeltingIceController.RemoveHit();
             isHitMeltingIce = false;
         }
