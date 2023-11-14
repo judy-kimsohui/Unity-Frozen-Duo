@@ -10,6 +10,9 @@ public class Snowman : MonoBehaviour
 
     public float moveSpeed = 2.5f; // 이동 속도
 
+    public string penguinName = "Penguin";
+    public string bearName = "PolarBear";
+
     void Update()
     {
         // 리스트가 비어있거나 유효한 위치가 없으면 종료
@@ -40,7 +43,7 @@ public class Snowman : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.name == "Penguin" || collision.gameObject.name == "Bear")
+        if (collision.gameObject.name == penguinName|| collision.gameObject.name == bearName)
         {
             GameManager.Instance.GameOver(); // GameManager 스크립트의 GameOver 함수를 호출하는 코드
         }

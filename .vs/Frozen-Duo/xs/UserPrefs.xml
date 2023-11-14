@@ -1,19 +1,25 @@
 ﻿<Properties StartupConfiguration="{8CC97D4C-3EB4-F88F-034A-9F92CB020B73}|">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="74f681a9-862a-4dab-971c-2fbc5e8946db" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="daa50661-a683-4fc5-a7f3-71f21129e589" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GAME/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="31" Column="1" />
+      <File FileName="Assets/hjj/Scripts/Snowman.cs" Line="46" Column="93" />
+      <File FileName="Assets/hjj/Scripts/GameManager.cs" Line="42" Column="1" />
+      <File FileName="Assets/hjj/Scripts/MovingBlock.cs" Line="25" Column="49" />
+      <File FileName="Assets/GAME/Scripts/PlayerController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Frozen-Duo">
+          <Node name="Frozen-Duo" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="PlayerController.cs" selected="True" />
+              <Node name="GAME" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="PlayerController.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="hjj" expanded="True">
+                <Node name="Scripts" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -22,6 +28,8 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
