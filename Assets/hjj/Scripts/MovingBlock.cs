@@ -17,32 +17,34 @@ public class MovingBlock : MonoBehaviour
         if (collision.gameObject.name == penguinName)
         {
             // Penguin인 경우 움직이지 않음
-            Debug.Log("Penguin은 움직일 수 없습니다!");
+            // Debug.Log("Penguin은 움직일 수 없습니다!");
         }
         else if (collision.gameObject.name == bearName && !isMoving)
         {
-            Debug.Log("Bear");
-
             // 충돌 지점의 normal 벡터를 구함
             ContactPoint contact = collision.contacts[0];
             Vector3 normal = contact.normal.normalized;
 
-            // x, z 축의 비중을 계산하여 더 비중이 큰 축으로 이동 방향 설정
-            Vector3 direction = Vector3.zero;
-            if (Mathf.Abs(normal.x) > Mathf.Abs(normal.z))
+            // y 축에서의 충돌 여부 확인
+            if (Mathf.Abs(normal.y) < 0.5f) // 이 값을 조정해서 위아래 충돌을 판단합니다.
             {
-                direction = new Vector3(Mathf.Sign(normal.x), 0, 0);
-            }
-            else
-            {
-                direction = new Vector3(0, 0, Mathf.Sign(normal.z));
-            }
+                // x, z 축의 비중을 계산하여 더 비중이 큰 축으로 이동 방향 설정
+                Vector3 direction = Vector3.zero;
+                if (Mathf.Abs(normal.x) > Mathf.Abs(normal.z))
+                {
+                    direction = new Vector3(Mathf.Sign(normal.x), 0, 0);
+                }
+                else
+                {
+                    direction = new Vector3(0, 0, Mathf.Sign(normal.z));
+                }
 
-            // 이동 속도와 방향 벡터의 크기를 곱하여 이동 벡터를 얻음
-            Vector3 moveVector = direction * moveDistance;
+                // 이동 속도와 방향 벡터의 크기를 곱하여 이동 벡터를 얻음
+                Vector3 moveVector = direction * moveDistance;
 
-            // 오브젝트를 부드럽게 이동시킴
-            StartCoroutine(MoveBlockSmoothly(transform.position, transform.position + moveVector, 1.0f));
+                // 오브젝트를 부드럽게 이동시킴
+                StartCoroutine(MoveBlockSmoothly(transform.position, transform.position + moveVector, 1.0f));
+            }
         }
     }
 
