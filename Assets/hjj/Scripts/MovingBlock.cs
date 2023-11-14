@@ -2,9 +2,6 @@ using UnityEngine;
 
 public class MovingBlock : MonoBehaviour
 {
-    // Penguin과 Bear를 식별하기 위한 이름
-    public string penguinName = "Penguin";
-    public string bearName = "PolarBear";
 
     // 이동 속도
     public float moveDistance = 2.0f; // 이동 거리를 조정해보세요.
@@ -14,12 +11,12 @@ public class MovingBlock : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         // 충돌한 오브젝트가 Penguin인지 확인
-        if (collision.gameObject.name == penguinName)
+        if (collision.gameObject.tag == "Player1")
         {
             // Penguin인 경우 움직이지 않음
             // Debug.Log("Penguin은 움직일 수 없습니다!");
         }
-        else if (collision.gameObject.name == bearName && !isMoving)
+        else if (collision.gameObject.tag == "Player2" && !isMoving)
         {
             // 충돌 지점의 normal 벡터를 구함
             ContactPoint contact = collision.contacts[0];

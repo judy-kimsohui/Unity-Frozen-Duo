@@ -62,6 +62,7 @@
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/ChestDemo.cs" />
     <Compile Include="Assets/hjj/Scripts/MovingBlock.cs" />
     <Compile Include="Assets/GAME/Scripts/MergeCameras.cs" />
+    <Compile Include="Assets/hjj/Scripts/JumpMushroom.cs" />
     <Compile Include="Assets/Quirky Series Ultimate/_Scripts/Demo.cs" />
     <Compile Include="Assets/GAME/Scripts/PlayerController.cs" />
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/Rotator.cs" />
