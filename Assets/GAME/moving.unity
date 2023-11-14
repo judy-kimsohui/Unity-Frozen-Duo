@@ -97713,13 +97713,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6040823005425224101, guid: 6d750369b94b3419a8ed79f88235fa9b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5106607222699149216}
-    - targetCorrespondingSourceObject: {fileID: 6040823005425224101, guid: 6d750369b94b3419a8ed79f88235fa9b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5106607222699149217}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d750369b94b3419a8ed79f88235fa9b, type: 3}
 --- !u!1001 &3345347551247673408
 PrefabInstance:
@@ -98091,11 +98085,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3580710957228733588, guid: 45f6d6314d0af6348abf3559815b3401, type: 3}
   m_PrefabInstance: {fileID: 832679044670033434}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &3910733552353957985 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6040823005425224101, guid: 6d750369b94b3419a8ed79f88235fa9b, type: 3}
-  m_PrefabInstance: {fileID: 3122717641261179960}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4050278802411658056 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4050278802411658056, guid: 82436820a1fece5449e4c4cff4d30860, type: 3}
@@ -98307,50 +98296,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4929795386174063640, guid: 68c0f117a49fb3f4caf5e7746be5bab1, type: 3}
   m_PrefabInstance: {fileID: 6903797551380079270}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5106607222699149216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3910733552353957985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0470c7a5551bc468da5bce2ae5d73632, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  penguinName: Penguin
-  bearName: PolarBear
-  moveSpeed: 5
-  applyGravity: 0
-  gravityScale: 9.8
---- !u!54 &5106607222699149217
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3910733552353957985}
-  serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 122
-  m_CollisionDetection: 0
 --- !u!4 &5277559423336113747 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5277559423336113747, guid: e685212d9f39dc942b2b23c23a7a719d, type: 3}

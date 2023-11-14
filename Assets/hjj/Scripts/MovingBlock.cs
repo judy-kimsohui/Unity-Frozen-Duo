@@ -7,10 +7,9 @@ public class MovingBlock : MonoBehaviour
     public string bearName = "PolarBear";
 
     // 이동 속도
-    public float moveSpeed = 5.0f;
+    public float moveDistance = 2.0f; // 이동 거리를 조정해보세요.
 
-
-    private Vector3 velocity = Vector3.zero;
+    private bool isMoving = false;
 
     private void OnCollisionEnter(Collision collision)
     {
@@ -20,7 +19,7 @@ public class MovingBlock : MonoBehaviour
             // Penguin인 경우 움직이지 않음
             Debug.Log("Penguin은 움직일 수 없습니다!");
         }
-        else if (collision.gameObject.name == bearName)
+        else if (collision.gameObject.name == bearName && !isMoving)
         {
             Debug.Log("Bear");
 
@@ -39,26 +38,27 @@ public class MovingBlock : MonoBehaviour
                 direction = new Vector3(0, 0, Mathf.Sign(normal.z));
             }
 
-            // 블록을 충돌한 방향으로 보간하여 부드럽게 이동
-            StartCoroutine(MoveBlockSmoothly(direction));
+            // 이동 속도와 방향 벡터의 크기를 곱하여 이동 벡터를 얻음
+            Vector3 moveVector = direction * moveDistance;
+
+            // 오브젝트를 부드럽게 이동시킴
+            StartCoroutine(MoveBlockSmoothly(transform.position, transform.position + moveVector, 1.0f));
         }
     }
 
     // 보간을 통해 부드럽게 이동
-    private System.Collections.IEnumerator MoveBlockSmoothly(Vector3 direction)
+    private System.Collections.IEnumerator MoveBlockSmoothly(Vector3 start, Vector3 end, float timeToMove)
     {
-        Vector3 startPosition = transform.position;
-        Vector3 targetPosition = transform.position + direction;
+        isMoving = true;
 
-        float journeyLength = Vector3.Distance(startPosition, targetPosition);
-        float startTime = Time.time;
-
-        while (transform.position != targetPosition)
+        float elapsedTime = 0.0f;
+        while (elapsedTime < timeToMove)
         {
-            float distanceCovered = (Time.time - startTime) * moveSpeed;
-            float fractionOfJourney = distanceCovered / journeyLength;
-            transform.position = Vector3.Lerp(startPosition, targetPosition, fractionOfJourney);
+            transform.position = Vector3.Lerp(start, end, elapsedTime / timeToMove);
+            elapsedTime += Time.deltaTime;
             yield return null;
         }
+
+        isMoving = false;
     }
 }
