@@ -10,8 +10,7 @@ public class WindController : MonoBehaviour
 
     void OnTriggerStay(Collider other)
     { 
-        if(other.gameObject.CompareTag("Player1")); //바람과 겹쳐있는 게임 오브젝트가 Player1이라면
-
+        if(other.gameObject.CompareTag("Player1")) //바람과 겹쳐있는 게임 오브젝트가 Player1이라면
         {
             forcedrb = other.attachedRigidbody;  //get rigidbody from triggering collider
 		    forcedrb.AddForce(windDirection * forceMultiflier, ForceMode.Force);
@@ -23,7 +22,7 @@ public class WindController : MonoBehaviour
 	    windDirection = transform.up; //get y direction of wind
     }
     
-    // Update is called once per frame
+    // Update is called once per frameㅁ
     void Update()
     {
     }

@@ -65,12 +65,14 @@
     <Compile Include="Assets/GAME/Scripts/PlayerController.cs" />
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/Rotator.cs" />
     <Compile Include="Assets/GAME/Scripts/CameraFollowPlayer.cs" />
+    <Compile Include="Assets/Turntable_platforms/GodRays/Scripts/ScrollBehaviour.cs" />
     <Compile Include="Assets/Mingi Assests/WayPointController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Quirky Series Ultimate/_Shader/SoftSurface.shader" />
     <None Include="Assets/AurynSky/WinterArena/READ ME.txt" />
     <None Include="Assets/Quirky Series Ultimate/_Shader/ToonRamp.shader" />
+    <None Include="Assets/Turntable_platforms/Materials/Cutout_2Sided.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
