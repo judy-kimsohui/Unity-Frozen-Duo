@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/ChestDemo.cs" />
+    <Compile Include="Assets/Mingi Assests/WindController.cs" />
     <Compile Include="Assets/GAME/Scripts/MergeCameras.cs" />
     <Compile Include="Assets/Quirky Series Ultimate/_Scripts/Demo.cs" />
     <Compile Include="Assets/GAME/Scripts/PlayerController.cs" />
