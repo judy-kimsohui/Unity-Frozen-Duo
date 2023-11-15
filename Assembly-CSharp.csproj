@@ -770,6 +770,9 @@
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+        <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
         <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
@@ -793,6 +796,9 @@
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
         <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+        <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -833,20 +839,23 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+        <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
         <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-        <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+        <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Editor">
         <HintPath>/Users/kimsohui/Project/Frozen-Duo/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
