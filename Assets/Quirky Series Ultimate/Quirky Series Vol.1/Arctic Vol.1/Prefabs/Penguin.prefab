@@ -30,7 +30,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2520459676733693489}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 70.445755, y: -0.000045319277, z: 179.99994}
 --- !u!1 &2520459676734177795
 GameObject:
   m_ObjectHideFlags: 0
@@ -61,7 +61,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2520459676733693489}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 8.064105, y: 2.883495, z: 168.38573}
 --- !u!1 &2520459676734177797
 GameObject:
   m_ObjectHideFlags: 0
@@ -92,7 +92,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2520459676733693489}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 8.064109, y: -2.8834934, z: -168.38571}
 --- !u!1 &2520459676734177809
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,7 +129,7 @@ Transform:
   - {fileID: 2520459676733693475}
   - {fileID: 2520459676733693477}
   m_Father: {fileID: 2520459676733693503}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 83.07553, y: 0.0000012223709, z: 0.00000053918234}
 --- !u!1 &2520459676734177811
 GameObject:
   m_ObjectHideFlags: 0
@@ -160,7 +160,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2520459676733693489}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 38.480545, y: -0.000004858499, z: 179.99997}
 --- !u!1 &2520459676734177813
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,7 +191,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2520459676733693489}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -26.300896, y: -0.0000014241816, z: -179.99997}
 --- !u!1 &2520459676734177815
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +222,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2520459676733693489}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 11.457437, y: 0.0000013521561, z: 0.0000025006211}
 --- !u!1 &2520459676734177821
 GameObject:
   m_ObjectHideFlags: 0
@@ -254,7 +254,7 @@ Transform:
   m_Children:
   - {fileID: 2520459676733693503}
   m_Father: {fileID: 3584599820630843869}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98021, y: 0, z: 0}
 --- !u!1 &2520459676734177823
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,9 +673,10 @@ GameObject:
   - component: {fileID: 3584599820630843840}
   - component: {fileID: 4151324852587109232}
   - component: {fileID: 7732344040508664688}
+  - component: {fileID: 6985714910562422991}
   m_Layer: 0
   m_Name: Penguin
-  m_TagString: Untagged
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -741,7 +742,7 @@ Animator:
   m_GameObject: {fileID: 3584599820630843841}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: f59f36aa0db265544b1c07c07a120fa3, type: 3}
-  m_Controller: {fileID: 9100000, guid: 83af4e9a548bcd6449be82520effc2be, type: 2}
+  m_Controller: {fileID: 9100000, guid: c84a887cf79ad47f0a974c13d188c176, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -800,7 +801,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!65 &7732344040508664688
 BoxCollider:
@@ -823,3 +824,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.2656556, y: 0.07872735, z: 0.30753532}
   m_Center: {x: 0, y: 0.037258044, z: 0.022019148}
+--- !u!114 &6985714910562422991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3584599820630843841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65ec494bded2e4b2d8e1cc2442a8ee0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player1
+  moveSpeed: 5
+  animator: {fileID: 3584599820630843843}

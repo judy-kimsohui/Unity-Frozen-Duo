@@ -40,8 +40,8 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets/GAME/Scripts/JumpMushroom.cs" />
      <Compile Include="Assets/AurynSky/WinterArena/Scripts/ChestDemo.cs" />
-     <Compile Include="Assets/GAME/hjj/Scripts/JumpMushroom.cs" />
      <Compile Include="Assets/MagicMirror/Demo/DemoScript.cs" />
      <Compile Include="Assets/MagicMirror/Prefab/MirrorCameraScript.cs" />
      <Compile Include="Assets/MagicMirror/Prefab/MirrorScript.cs" />
@@ -52,13 +52,13 @@
      <Compile Include="Assets/AurynSky/WinterArena/Scripts/Rotator.cs" />
      <Compile Include="Assets/GAME/Scripts/CameraFollowPlayer.cs" />
      <Compile Include="Assets/Turntable_platforms/GodRays/Scripts/ScrollBehaviour.cs" />
-     <Compile Include="Assets/GAME/Mingi Assests/WindController.cs" />
-     <Compile Include="Assets/GAME/Mingi Assests/WayPointController.cs" />
-     <Compile Include="Assets/GAME/hjj/Scripts/MovingBlock.cs" />
-     <Compile Include="Assets/GAME/hjj/Scripts/Snowman.cs" />
+     <Compile Include="Assets/GAME/Scripts/Snowman.cs" />
+     <Compile Include="Assets/GAME/Scripts/WindController.cs" />
+     <Compile Include="Assets/GAME/Scripts/WayPointController.cs" />
      <Compile Include="Assets/GAME/Scripts/LaserController.cs" />
      <Compile Include="Assets/GAME/Scripts/MeltingIceController.cs" />
-     <Compile Include="Assets/GAME/hjj/Scripts/GameManager.cs" />
+     <Compile Include="Assets/GAME/Scripts/MovingBlock.cs" />
+     <Compile Include="Assets/GAME/Scripts/GameManager.cs" />
      <Compile Include="Assets/GAME/Scripts/IceBreaking.cs" />
      <Compile Include="Assets/MagicMirror/Prefab/MirrorReflectionScript.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
