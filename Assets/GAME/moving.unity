@@ -14305,7 +14305,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 3.8199037e+27, z: 1.02e-43, w: 1.37e-43}
+  m_BoundingSphereOverride: {x: 0.5, y: 0.5, z: 0.5, w: -7.061824e+11}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -96624,11 +96624,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 992c324966a834763b8edaf588575c31, type: 3}
---- !u!4 &1619617710916038910 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1619617710916038910, guid: 940506a406123bc48aa2d9d910f198f3, type: 3}
-  m_PrefabInstance: {fileID: 490481398125251129}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1677765524256340909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97584,7 +97579,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: c84a887cf79ad47f0a974c13d188c176, type: 2}
     - target: {fileID: 3584599820630843869, guid: add5ab1cca4ee994d9f396d44d51bc66, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.27
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 3584599820630843869, guid: add5ab1cca4ee994d9f396d44d51bc66, type: 3}
       propertyPath: m_LocalPosition.y
@@ -97592,7 +97587,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584599820630843869, guid: add5ab1cca4ee994d9f396d44d51bc66, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.39
+      value: 9.67
       objectReference: {fileID: 0}
     - target: {fileID: 3584599820630843869, guid: add5ab1cca4ee994d9f396d44d51bc66, type: 3}
       propertyPath: m_LocalRotation.w
@@ -99128,3 +99123,10 @@ SceneRoots:
   - {fileID: 1869162616}
   - {fileID: 7358782247011352279}
   - {fileID: 7134063813694989331}
+  - {fileID: 8807616273866002486}
+  - {fileID: 6839509856841051718}
+  - {fileID: 1327193780710904908}
+  - {fileID: 226033090}
+  - {fileID: 629091154}
+  - {fileID: 1068776601}
+  - {fileID: 1360453185}
