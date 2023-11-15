@@ -60,7 +60,11 @@
   <ItemGroup>
     <Compile Include="Assets/hjj/Scripts/GameManager.cs" />
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/ChestDemo.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets/hjj/Scripts/MovingBlock.cs" />
+=======
+    <Compile Include="Assets/Mingi Assests/WindController.cs" />
+>>>>>>> mingi
     <Compile Include="Assets/GAME/Scripts/MergeCameras.cs" />
     <Compile Include="Assets/hjj/Scripts/JumpMushroom.cs" />
     <Compile Include="Assets/GAME/Scripts/Wallbreaking.cs" />
@@ -68,14 +72,23 @@
     <Compile Include="Assets/GAME/Scripts/PlayerController.cs" />
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/Rotator.cs" />
     <Compile Include="Assets/GAME/Scripts/CameraFollowPlayer.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets/hjj/Scripts/Snowman.cs" />
     <Compile Include="Assets/GAME/Scripts/IceBreaking.cs" />
+=======
+    <Compile Include="Assets/Turntable_platforms/GodRays/Scripts/ScrollBehaviour.cs" />
+    <Compile Include="Assets/Mingi Assests/WayPointController.cs" />
+>>>>>>> mingi
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Quirky Series Ultimate/_Shader/SoftSurface.shader" />
     <None Include="Assets/AurynSky/WinterArena/READ ME.txt" />
     <None Include="Assets/Quirky Series Ultimate/_Shader/ToonRamp.shader" />
+<<<<<<< HEAD
     <None Include="Assets/Snow_Man/Documentation/Documentation(Snow_Man3D).txt" />
+=======
+    <None Include="Assets/Turntable_platforms/Materials/Cutout_2Sided.shader" />
+>>>>>>> mingi
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
