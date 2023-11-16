@@ -4,6 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     public string playerTag; // "Player1" 또는 "Player2"를 설정합니다.
     public float moveSpeed = 5f;
+    public Camera playerCamera; // 플레이어 카메라 참조
     public Animator animator; // Animator 컴포넌트 참조
 
     private Vector3 ladderStartPosition;
@@ -11,9 +12,22 @@ public class PlayerController : MonoBehaviour
     private bool isClimbingLadder = false;
     private float ladderClimbTime = 0f;
 
+    private float cameraYAngle = 0f; // 카메라의 Y축 회전 각도
+
     private void Start()
     {
         animator = GetComponent<Animator>();
+        cameraYAngle = playerCamera.transform.eulerAngles.y;
+
+        // 카메라의 초기 위치 설정
+        SetInitialCameraPosition();
+    }
+
+    private void SetInitialCameraPosition()
+    {
+        // 카메라를 플레이어 뒤에 배치하고, 플레이어를 바라보게 설정
+        playerCamera.transform.position = transform.position + new Vector3(0, 2, -5); // 예시 위치, 필요에 따라 조정
+        playerCamera.transform.LookAt(transform.position);
     }
 
     private void Update()
@@ -24,25 +38,50 @@ public class PlayerController : MonoBehaviour
             return; // 사다리를 타는 동안에는 다른 움직임을 중지
         }
 
+        HandleCameraRotation();
         Vector3 moveDirection = GetMoveDirection();
         
         HandleAnimation(moveDirection);
         HandleMovement(moveDirection);
     }
-
-    private void OnTriggerEnter(Collider other)
+    private void HandleCameraRotation()
     {
-        if (other.CompareTag("Ladder") && !isClimbingLadder)
+        float rotationSpeed = 5f; // 원하는 회전 속도 설정
+
+        // 카메라 회전 각도 업데이트
+        if (playerTag == "Player1")
         {
-            ladderStartPosition = transform.position;
-            ladderStartRotation = transform.rotation;
-            isClimbingLadder = true;
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                cameraYAngle += rotationSpeed; // 시계 방향 회전
+            }
+            else if (Input.GetKey(KeyCode.Z))
+            {
+                cameraYAngle -= rotationSpeed; // 반시계 방향 회전
+            }
         }
+        else if (playerTag == "Player2")
+        {
+            if (Input.GetKey(KeyCode.RightShift))
+            {
+                cameraYAngle += rotationSpeed; // 시계 방향 회전
+            }
+            else if (Input.GetKey(KeyCode.Slash))
+            {
+                cameraYAngle -= rotationSpeed; // 반시계 방향 회전
+            }
+        }
+
+        // 카메라의 위치와 회전을 플레이어 위치에 상대적으로 설정
+        playerCamera.transform.position = transform.position + Quaternion.Euler(0, cameraYAngle, 0) * new Vector3(0, 2, -5); // 카메라 위치 조정
+        playerCamera.transform.LookAt(transform.position); // 카메라가 플레이어를 바라보도록 설정
     }
+
 
     private Vector3 GetMoveDirection()
     {
         Vector3 moveDirection = Vector3.zero;
+        // 플레이어의 입력에 따른 기본 방향 설정
         if (playerTag == "Player1")
         {
             if (Input.GetKey(KeyCode.W)) moveDirection += Vector3.forward;
@@ -57,6 +96,10 @@ public class PlayerController : MonoBehaviour
             if (Input.GetKey(KeyCode.LeftArrow)) moveDirection += Vector3.left;
             if (Input.GetKey(KeyCode.RightArrow)) moveDirection += Vector3.right;
         }
+
+        // 카메라 Y축 회전에 따른 이동 방향 조정
+        Quaternion cameraRotation = Quaternion.Euler(0, cameraYAngle, 0);
+        moveDirection = cameraRotation * moveDirection;
         return moveDirection;
     }
 
@@ -100,15 +143,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-private void ResetLadderState()
-{
-    // 기존 위치와 회전을 사용하지 않고, 새로운 위치로 플레이어를 이동시킵니다.
-    Vector3 exitPosition = ladderStartPosition + transform.forward * 1.5f; // 1.5f만큼 앞으로 밀어줍니다. 이 값을 조절하여 원하는 만큼 밀어낼 수 있습니다.
-    transform.position = new Vector3(exitPosition.x, ladderStartPosition.y + 10f, exitPosition.z); // 10f는 사다리를 타고 올라간 높이입니다.
+    private void ResetLadderState()
+    {
+        Vector3 exitPosition = ladderStartPosition + transform.forward * 1.5f; 
+        transform.position = new Vector3(exitPosition.x, ladderStartPosition.y + 10f, exitPosition.z); 
 
-    animator.SetBool("Climbing", false);
-    isClimbingLadder = false;
-    ladderClimbTime = 0f;
-}
-
+        animator.SetBool("Climbing", false);
+        isClimbingLadder = false;
+        ladderClimbTime = 0f;
+    }
 }
