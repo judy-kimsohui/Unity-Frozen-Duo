@@ -838,4 +838,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTag: Player1
   moveSpeed: 5
+  playerCamera: {fileID: 0}
   animator: {fileID: 3584599820630843843}
