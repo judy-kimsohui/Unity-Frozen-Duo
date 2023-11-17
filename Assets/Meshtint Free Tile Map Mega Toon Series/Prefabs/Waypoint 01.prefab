@@ -4854,7 +4854,6 @@ GameObject:
   - component: {fileID: 23537688779314044}
   - component: {fileID: 65707845505491674}
   - component: {fileID: 6333230575454892817}
-  - component: {fileID: 6707137617820673991}
   m_Layer: 0
   m_Name: Waypoint 01
   m_TagString: Untagged
@@ -4950,20 +4949,6 @@ BoxCollider:
   m_Size: {x: 0.8516799, y: 0.06853887, z: 0.8516799}
   m_Center: {x: 0, y: 0.023466047, z: 0}
 --- !u!114 &6333230575454892817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620071135427400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e43c56c0d49946868653a9e449ab9b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wall: {fileID: 0}
-  wallAnim: {fileID: 0}
---- !u!114 &6707137617820673991
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
