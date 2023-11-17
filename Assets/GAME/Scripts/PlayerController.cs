@@ -46,18 +46,18 @@ public class PlayerController : MonoBehaviour
     }
     private void HandleCameraRotation()
     {
-        float rotationSpeed = 5f; // 원하는 회전 속도 설정
+        float rotationSpeed = 2f; // 원하는 회전 속도 설정
 
         // 카메라 회전 각도 업데이트
         if (playerTag == "Player1")
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
-                cameraYAngle += rotationSpeed; // 시계 방향 회전
+                cameraYAngle -= rotationSpeed; // 시계 방향 회전
             }
             else if (Input.GetKey(KeyCode.Z))
             {
-                cameraYAngle -= rotationSpeed; // 반시계 방향 회전
+                cameraYAngle += rotationSpeed; // 반시계 방향 회전
             }
         }
         else if (playerTag == "Player2")
