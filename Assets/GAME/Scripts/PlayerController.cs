@@ -145,11 +145,19 @@ public class PlayerController : MonoBehaviour
 
     private void ResetLadderState()
     {
-        Vector3 exitPosition = ladderStartPosition + transform.forward * 1.5f; 
+        Vector3 exitPosition = ladderStartPosition + transform.forward * 1.5f;
         transform.position = new Vector3(exitPosition.x, ladderStartPosition.y + 10f, exitPosition.z); 
 
         animator.SetBool("Climbing", false);
         isClimbingLadder = false;
         ladderClimbTime = 0f;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Ladder"))
+        {
+            isClimbingLadder = true;
+        }
     }
 }
