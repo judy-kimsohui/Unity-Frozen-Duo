@@ -96827,6 +96827,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6985714910562422991, guid: add5ab1cca4ee994d9f396d44d51bc66, type: 3}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 1612901840}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -97946,6 +97950,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PolarBear
       objectReference: {fileID: 0}
+    - target: {fileID: 8997187936299498831, guid: 13010ba8a92e1e84094704ebcf1e34cc, type: 3}
+      propertyPath: playerCamera
+      value: 
+      objectReference: {fileID: 2069286164}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
