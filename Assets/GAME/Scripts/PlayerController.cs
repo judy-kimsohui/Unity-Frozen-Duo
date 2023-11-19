@@ -152,4 +152,12 @@ public class PlayerController : MonoBehaviour
         isClimbingLadder = false;
         ladderClimbTime = 0f;
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag ("Ladder"))
+        {
+            isClimbingLadder = true; 
+        }
+    }
 }
