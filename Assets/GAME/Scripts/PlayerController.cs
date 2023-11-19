@@ -6,17 +6,20 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5f;
     public Camera playerCamera; // 플레이어 카메라 참조
     public Animator animator; // Animator 컴포넌트 참조
+    public Rigidbody rb;
 
     private Vector3 ladderStartPosition;
+    private float climbSpeed = 3f;
+    private float ladderYSize;
     private Quaternion ladderStartRotation;
     private bool isClimbingLadder = false;
-    private float ladderClimbTime = 0f;
 
     private float cameraYAngle = 0f; // 카메라의 Y축 회전 각도
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody>();
         cameraYAngle = playerCamera.transform.eulerAngles.y;
 
         // 카메라의 초기 위치 설정
@@ -33,10 +36,12 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         if (isClimbingLadder)
-        {
+        { 
             HandleLadderClimb();
+            HandleCameraRotation();
             return; // 사다리를 타는 동안에는 다른 움직임을 중지
         }
+
 
         HandleCameraRotation();
         Vector3 moveDirection = GetMoveDirection();
@@ -46,18 +51,18 @@ public class PlayerController : MonoBehaviour
     }
     private void HandleCameraRotation()
     {
-        float rotationSpeed = 2f; // 원하는 회전 속도 설정
+        float rotationSpeed = 5f; // 원하는 회전 속도 설정
 
         // 카메라 회전 각도 업데이트
         if (playerTag == "Player1")
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
-                cameraYAngle -= rotationSpeed; // 시계 방향 회전
+                cameraYAngle += rotationSpeed; // 시계 방향 회전
             }
             else if (Input.GetKey(KeyCode.Z))
             {
-                cameraYAngle += rotationSpeed; // 반시계 방향 회전
+                cameraYAngle -= rotationSpeed; // 반시계 방향 회전
             }
         }
         else if (playerTag == "Player2")
@@ -124,40 +129,55 @@ public class PlayerController : MonoBehaviour
 
     private void HandleLadderClimb()
     {
-        ladderClimbTime += Time.deltaTime;
 
-        if (playerTag == "Player1" && Input.GetKey(KeyCode.W))
+        if (playerTag == "Player1")
         {
-            transform.position += Vector3.up * 10f * Time.deltaTime;
             animator.SetBool("Climbing", true);
+            if (Input.GetKey(KeyCode.W))
+                transform.position += Vector3.up * climbSpeed * Time.deltaTime;
+            else if (Input.GetKey(KeyCode.S))
+			    transform.position += Vector3.down * climbSpeed * Time.deltaTime;
         }
-        else if (playerTag == "Player2" && Input.GetKey(KeyCode.UpArrow))
+        else if (playerTag == "Player2")
         {
-            transform.position += Vector3.up * 10f * Time.deltaTime;
-            transform.Rotate(Vector3.up, 90f);
-        }
-
-        if (Input.GetKeyUp(KeyCode.W) || Input.GetKeyUp(KeyCode.UpArrow) || ladderClimbTime >= 2f)
-        {
-            ResetLadderState();
+            //transform.Rotate(Vector3.up, 90f);
+            if (Input.GetKey(KeyCode.UpArrow))
+                transform.position += Vector3.up * climbSpeed * Time.deltaTime;
+            else if (Input.GetKey(KeyCode.DownArrow))
+                transform.position += Vector3.down * climbSpeed * Time.deltaTime;
         }
     }
 
-    private void ResetLadderState()
+    void  OnTriggerExit(Collider other)
     {
-        Vector3 exitPosition = ladderStartPosition + transform.forward * 1.5f;
-        transform.position = new Vector3(exitPosition.x, ladderStartPosition.y + 10f, exitPosition.z); 
+        if (other.gameObject.CompareTag("Ladder"))
+        {
+            rb.useGravity = true;
+            Vector3 exitPosition = ladderStartPosition + transform.forward * 0.5f;
+            transform.position = new Vector3(exitPosition.x, ladderYSize / 2 + 2.0f, exitPosition.z);
 
-        animator.SetBool("Climbing", false);
-        isClimbingLadder = false;
-        ladderClimbTime = 0f;
+            animator.SetBool("Climbing", false);
+            isClimbingLadder = false;
+        }
+        
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Ladder"))
         {
+            //사다리에 플레이어를 고정 시키기 위해 중력끄고 속도 0으로 만듬
+            rb.useGravity = false;
+
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+
+            //사다리의 y크기를 받아와서 사다리를 나올 때 사용
+            ladderYSize = other.bounds.size.y;
+            ladderStartPosition = other.transform.position;
             isClimbingLadder = true;
+
+            transform.rotation = other.transform.rotation;
         }
     }
 }
