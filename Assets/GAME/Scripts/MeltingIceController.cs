@@ -27,7 +27,6 @@ public class MeltingIceController : MonoBehaviour
         iceRenderer = ice.GetComponent<Renderer>();
         downwardSpeed = transform.localScale.y / meltingPhase;
         rendererHeightSpeed = 0.1f / meltingPhase * 4;
-        Debug.Log($"{transform.localScale.y}");
     }
 
     // Update is called once per frame
