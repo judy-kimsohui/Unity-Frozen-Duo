@@ -23,6 +23,8 @@ public class Wallbreaking : MonoBehaviour
                     // Rigidbody 설정을 원하는 대로 조정할 수 있습니다.
                     rb.mass = 1; // 예를 들어, 질량을 설정합니다.
                     // 추가적인 Rigidbody 설정을 여기에 구현할 수 있습니다.
+
+                    Destroy(gameObject, 5f);
                 }
             }
         }
@@ -43,6 +45,7 @@ public class Wallbreaking : MonoBehaviour
 
         // Rigidbody를 추가하는 시도를 합니다.
         TryAddRigidbodyToChildren();
+
     }
 
     // OnCollisionExit는 오브젝트가 충돌에서 벗어났을 때 호출됩니다.
