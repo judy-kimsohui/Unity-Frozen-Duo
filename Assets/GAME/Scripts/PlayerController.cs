@@ -179,6 +179,11 @@ public class PlayerController : MonoBehaviour
 
             transform.rotation = other.transform.rotation;
         }
+
+        if(other.gameObject.CompareTag("Trap"))
+        {
+            GameManager.Instance.GameOver();
+        }
     }
 
 }
