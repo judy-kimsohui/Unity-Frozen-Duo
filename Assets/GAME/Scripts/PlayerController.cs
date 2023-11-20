@@ -181,11 +181,4 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag ("Ladder"))
-        {
-            isClimbingLadder = true; 
-        }
-    }
 }
