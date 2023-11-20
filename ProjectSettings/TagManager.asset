@@ -8,6 +8,7 @@ TagManager:
   - Player2
   - Ladder
   - MeltingIce
+  - Trap
   layers:
   - Default
   - TransparentFX

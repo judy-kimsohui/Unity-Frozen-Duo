@@ -78,6 +78,7 @@
     <Compile Include="Assets/GAME/Scripts/MovingBlock.cs" />
     <Compile Include="Assets/GAME/Scripts/GameManager.cs" />
     <Compile Include="Assets/GAME/Scripts/IceBreaking.cs" />
+    <Compile Include="Assets/GAME/Scripts/TriggerGameOver.cs" />
     <Compile Include="Assets/MagicMirror/Prefab/MirrorReflectionScript.cs" />
   </ItemGroup>
   <ItemGroup>
