@@ -71,6 +71,7 @@
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/Rotator.cs" />
     <Compile Include="Assets/GAME/Scripts/CameraFollowPlayer.cs" />
     <Compile Include="Assets/Turntable_platforms/GodRays/Scripts/ScrollBehaviour.cs" />
+    <Compile Include="Assets/GAME/Scripts/ClearTrigger.cs" />
     <Compile Include="Assets/GAME/Scripts/Snowman.cs" />
     <Compile Include="Assets/GAME/Scripts/WindController.cs" />
     <Compile Include="Assets/GAME/Scripts/WayPointController.cs" />

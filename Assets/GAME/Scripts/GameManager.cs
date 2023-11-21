@@ -13,7 +13,8 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverUI;
     public GameObject nextstageUI;
     public GameObject pauseUI;
-    public GameObject pauseButton; 
+    public GameObject pauseButton;
+    public string nextStageName;
 
     private bool isGamePaused = false;
 
@@ -50,7 +51,10 @@ public class GameManager : MonoBehaviour
 
     public void retry()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+        gameOverUI.SetActive(false);
+        pauseUI.SetActive(false);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        
     }
 
     public void GameClear()
@@ -71,7 +75,8 @@ public class GameManager : MonoBehaviour
 
     public void NextStage()
     {
-        SceneManager.LoadScene("FlowerScene"); 
+        SceneManager.LoadScene(nextStageName);
+        nextstageUI.SetActive(false);
     }
 
     void Update()
@@ -100,5 +105,14 @@ public class GameManager : MonoBehaviour
             pauseButton.SetActive(true);
 
         }
+    }
+
+    public void QuitGame()
+    {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
     }
 }
