@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject nextstageUI;
     public GameObject pauseUI;
     public GameObject pauseButton;
-    public string nextStageName;
+    public GameObject startUI;
 
     private bool isGamePaused = false;
 
@@ -32,6 +32,14 @@ public class GameManager : MonoBehaviour
         {
             _instance = this;
         }
+    }
+
+    public void StartGame()
+    {
+        Debug.Log("게임 시작");
+        pauseButton.SetActive(true);
+        startUI.SetActive(false);
+        NextStage();
     }
 
     public void GameOver()
@@ -78,9 +86,20 @@ public class GameManager : MonoBehaviour
 
     public void NextStage()
     {
-        SceneManager.LoadScene(nextStageName);
-        nextstageUI.SetActive(false);
-        Time.timeScale = 1f;
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int nextSceneIndex = currentSceneIndex + 1;
+
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+            nextstageUI.SetActive(false);
+            Time.timeScale = 1f;
+        }
+        else
+        {
+            Debug.LogWarning("There is no next scene in the build settings!");
+        }
+        
     }
 
     void Update()
