@@ -12,6 +12,11 @@ public class GameManager : MonoBehaviour
     // UI를 담당하는 GameObject
     public GameObject gameOverUI;
     public GameObject nextstageUI;
+    public GameObject pauseUI;
+    public GameObject pauseButton; 
+
+    private bool isGamePaused = false;
+
 
     private void Awake()
     {
@@ -67,5 +72,33 @@ public class GameManager : MonoBehaviour
     public void NextStage()
     {
         SceneManager.LoadScene("FlowerScene"); 
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            TogglePause();
+        }
+    }
+
+    public void TogglePause()
+    {
+        isGamePaused = !isGamePaused;
+        Debug.Log("paused");
+
+        if (isGamePaused)
+        {
+            Time.timeScale = 0f; // 시간을 멈춥니다.
+            pauseUI.SetActive(true);
+            pauseButton.SetActive(false);
+        }
+        else
+        {
+            Time.timeScale = 1f; // 시간을 다시 실행합니다.
+            pauseUI.SetActive(false);
+            pauseButton.SetActive(true);
+
+        }
     }
 }
