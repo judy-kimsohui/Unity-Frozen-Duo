@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         Debug.Log("게임 오버!");
+        Time.timeScale = 0f;
 
         // 게임 오버 시 UI를 활성화
         if (gameOverUI != null)
@@ -53,6 +54,7 @@ public class GameManager : MonoBehaviour
     {
         gameOverUI.SetActive(false);
         pauseUI.SetActive(false);
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         
     }
@@ -60,6 +62,7 @@ public class GameManager : MonoBehaviour
     public void GameClear()
     {
         Debug.Log("게임 클리어!");
+        Time.timeScale = 0f;
 
         // 게임 오버 시 UI를 활성화
         if (nextstageUI != null)
@@ -77,6 +80,7 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(nextStageName);
         nextstageUI.SetActive(false);
+        Time.timeScale = 1f;
     }
 
     void Update()
