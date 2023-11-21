@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public GameObject pauseUI;
     public GameObject pauseButton;
     public GameObject startUI;
+    public GameObject endUI;
 
     private bool isGamePaused = false;
 
@@ -40,6 +41,22 @@ public class GameManager : MonoBehaviour
         pauseButton.SetActive(true);
         startUI.SetActive(false);
         NextStage();
+    }
+
+    public void EndGame()
+    {
+        Debug.Log("게임 끝");
+        pauseButton.SetActive(false);
+        GameClear();
+        NextStage();
+        endUI.SetActive(true);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("StartScene");
+        startUI.SetActive(true);
+        endUI.SetActive(false);
     }
 
     public void GameOver()
@@ -69,7 +86,7 @@ public class GameManager : MonoBehaviour
 
     public void GameClear()
     {
-        Debug.Log("게임 클리어!");
+        Debug.Log("스테이지 클리어!");
         Time.timeScale = 0f;
 
         // 게임 오버 시 UI를 활성화
