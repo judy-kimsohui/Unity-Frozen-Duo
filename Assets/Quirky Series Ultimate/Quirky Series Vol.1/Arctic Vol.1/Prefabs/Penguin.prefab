@@ -840,3 +840,4 @@ MonoBehaviour:
   moveSpeed: 5
   playerCamera: {fileID: 0}
   animator: {fileID: 3584599820630843843}
+  rb: {fileID: 0}

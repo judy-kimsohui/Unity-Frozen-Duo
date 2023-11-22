@@ -19,6 +19,8 @@ public class IceBreaking : MonoBehaviour
                 // Rigidbody의 다양한 설정을 여기에서 할 수 있습니다.
                 rb.mass = 1; // 예를 들어, 질량을 설정합니다.
                 // 추가적인 Rigidbody 설정을 여기에 구현할 수 있습니다.
+
+                Destroy(gameObject, 5f);
             }
         }
     }
@@ -32,7 +34,7 @@ public class IceBreaking : MonoBehaviour
             touchCount++; // 닿은 횟수를 증가시킵니다.
             
             // 3번 이상 닿았을 경우에 자식 오브젝트들에 Rigidbody를 추가합니다.
-            if (touchCount >= 5)
+            if (touchCount >= 1)
             {
                 AddRigidbodyToChildren();
             }

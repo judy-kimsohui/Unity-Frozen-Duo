@@ -159,6 +159,7 @@ MonoBehaviour:
   moveSpeed: 5
   playerCamera: {fileID: 0}
   animator: {fileID: 3709661200891039492}
+  rb: {fileID: 0}
 --- !u!1 &3709661200893405495
 GameObject:
   m_ObjectHideFlags: 0
