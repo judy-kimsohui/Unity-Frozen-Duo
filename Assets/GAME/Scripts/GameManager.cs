@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,7 +5,11 @@ public class GameManager : MonoBehaviour
 {
     // 싱글톤 인스턴스
     private static GameManager _instance;
-    public static GameManager Instance { get { return _instance; } }
+
+    public static GameManager Instance
+    {
+        get { return _instance; }
+    }
 
     // UI를 담당하는 GameObject
     public GameObject gameOverUI;
@@ -43,9 +45,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void retry()
+    public void Retry()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        gameOverUI.SetActive(false);
     }
 
     public void GameClear()
@@ -66,6 +69,6 @@ public class GameManager : MonoBehaviour
 
     public void NextStage()
     {
-        SceneManager.LoadScene("FlowerScene"); 
+        SceneManager.LoadScene("FlowerScene");
     }
 }

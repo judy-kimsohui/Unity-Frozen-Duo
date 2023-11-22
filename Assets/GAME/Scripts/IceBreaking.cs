@@ -29,7 +29,7 @@ public class IceBreaking : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         // 충돌한 오브젝트의 태그가 "Player1" 또는 "Player2"인지 확인합니다.
-        if (collision.gameObject.tag == "Player1" || collision.gameObject.tag == "Player2")
+        if (collision.gameObject.tag == "Player2")
         {
             touchCount++; // 닿은 횟수를 증가시킵니다.
             
