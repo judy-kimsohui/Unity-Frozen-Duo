@@ -183,6 +183,7 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.CompareTag("Trap"))
         {
             GameManager.Instance.GameOver();
+            GameManager.Instance.Retry();
         }
     }
 
