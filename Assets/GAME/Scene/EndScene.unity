@@ -845,6 +845,7 @@ MonoBehaviour:
   pauseButton: {fileID: 1210369192}
   startUI: {fileID: 598589381}
   endUI: {fileID: 1130498224}
+  infoUI: {fileID: 0}
 --- !u!4 &841446361
 Transform:
   m_ObjectHideFlags: 0
@@ -869,6 +870,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 114279522}
     m_Modifications:
+    - target: {fileID: 2036635208480103419, guid: cf61c91e0601647cc86ad9eb743cb348, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 422.94568
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036635208480103419, guid: cf61c91e0601647cc86ad9eb743cb348, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 283.552
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036635208480103419, guid: cf61c91e0601647cc86ad9eb743cb348, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 45.50431
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036635208480103419, guid: cf61c91e0601647cc86ad9eb743cb348, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -47.285614
+      objectReference: {fileID: 0}
     - target: {fileID: 3602483875289831229, guid: cf61c91e0601647cc86ad9eb743cb348, type: 3}
       propertyPath: m_Name
       value: EndUI
@@ -955,11 +972,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8365125864155127523, guid: cf61c91e0601647cc86ad9eb743cb348, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: -79
       objectReference: {fileID: 0}
     - target: {fileID: 8365125864155127523, guid: cf61c91e0601647cc86ad9eb743cb348, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8365125864155127523, guid: cf61c91e0601647cc86ad9eb743cb348, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
