@@ -73,6 +73,7 @@
     <Compile Include="Assets/Turntable_platforms/GodRays/Scripts/ScrollBehaviour.cs" />
     <Compile Include="Assets/GAME/Scripts/Snowman.cs" />
     <Compile Include="Assets/GAME/Scripts/WindController.cs" />
+    <Compile Include="Assets/GAME/Scripts/EndingTrigger.cs" />
     <Compile Include="Assets/GAME/Scripts/WayPointController.cs" />
     <Compile Include="Assets/GAME/Scripts/LaserController.cs" />
     <Compile Include="Assets/GAME/Scripts/MeltingIceController.cs" />
