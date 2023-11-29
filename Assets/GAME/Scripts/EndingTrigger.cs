@@ -21,6 +21,13 @@ public class EndingTrigger : MonoBehaviour
         if (other.gameObject.CompareTag("Player1") || other.gameObject.CompareTag("Player2"))
         {
             director.Play();
+            Invoke("CallEndGame", 18);
 	    }
+
+    }
+
+    private void CallEndGame()
+    {
+        GameManager.Instance.QuitGame();
     }
 }

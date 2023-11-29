@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>9.0</LangVersion>
@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets/GAME/Scripts/JumpMushroom.cs" />
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/ChestDemo.cs" />
+    <Compile Include="Assets/GAME/Scripts/LoadingSceneController.cs" />
     <Compile Include="Assets/MagicMirror/Demo/DemoScript.cs" />
     <Compile Include="Assets/MagicMirror/Prefab/MirrorCameraScript.cs" />
     <Compile Include="Assets/GAME/Scripts/EndingManager.cs" />
@@ -72,6 +73,8 @@
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/Rotator.cs" />
     <Compile Include="Assets/GAME/Scripts/CameraFollowPlayer.cs" />
     <Compile Include="Assets/Turntable_platforms/GodRays/Scripts/ScrollBehaviour.cs" />
+    <Compile Include="Assets/GAME/Scripts/EndTrigger.cs" />
+    <Compile Include="Assets/GAME/Scripts/ClearTrigger.cs" />
     <Compile Include="Assets/GAME/Scripts/Snowman.cs" />
     <Compile Include="Assets/GAME/Scripts/WindController.cs" />
     <Compile Include="Assets/GAME/Scripts/EndingTrigger.cs" />
