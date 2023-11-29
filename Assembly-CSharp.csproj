@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets/GAME/Scripts/JumpMushroom.cs" />
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/ChestDemo.cs" />
+    <Compile Include="Assets/GAME/Scripts/LoadingSceneController.cs" />
     <Compile Include="Assets/MagicMirror/Demo/DemoScript.cs" />
     <Compile Include="Assets/MagicMirror/Prefab/MirrorCameraScript.cs" />
     <Compile Include="Assets/MagicMirror/Prefab/MirrorScript.cs" />
@@ -69,6 +70,7 @@
     <Compile Include="Assets/GAME/Scripts/ArcticWaterController.cs" />
     <Compile Include="Assets/GAME/Scripts/PlayerController.cs" />
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/Rotator.cs" />
+    <Compile Include="Assets/GAME/Scripts/SceneLoad.cs" />
     <Compile Include="Assets/GAME/Scripts/CameraFollowPlayer.cs" />
     <Compile Include="Assets/Turntable_platforms/GodRays/Scripts/ScrollBehaviour.cs" />
     <Compile Include="Assets/GAME/Scripts/EndTrigger.cs" />
