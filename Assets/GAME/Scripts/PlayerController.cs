@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
     }
     private void HandleCameraRotation()
     {
-        float rotationSpeed = 5f; // 원하는 회전 속도 설정
+        float rotationSpeed = 1f; // 원하는 회전 속도 설정
 
         // 카메라 회전 각도 업데이트
         if (playerTag == "Player1")
