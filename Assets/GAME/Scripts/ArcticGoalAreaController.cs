@@ -14,6 +14,7 @@ namespace GAME.Scripts
         void Start()
         {
             gm = GameManager.Instance;
+            gm.NavigatePlayerToShip();
         }
 
         // Update is called once per frame

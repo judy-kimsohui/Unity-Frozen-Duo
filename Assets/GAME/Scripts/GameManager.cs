@@ -1,3 +1,5 @@
+using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -19,6 +21,7 @@ public class GameManager : MonoBehaviour
     public GameObject startUI;
     public GameObject endUI;
     public GameObject infoUI;
+    public TMP_Text playerNotificationText;
 
     private bool isGamePaused = false;
 
@@ -178,5 +181,18 @@ public class GameManager : MonoBehaviour
 #else
         Application.Quit();
 #endif
+    }
+
+    public void NavigatePlayerToShip()
+    {
+        playerNotificationText.gameObject.SetActive(true);
+        playerNotificationText.text = $"Go to the Ship!";
+        StartCoroutine(DeactivateNotificationTextAfter(20.0f));
+    }
+
+    private IEnumerator DeactivateNotificationTextAfter(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        playerNotificationText.gameObject.SetActive(false);
     }
 }
