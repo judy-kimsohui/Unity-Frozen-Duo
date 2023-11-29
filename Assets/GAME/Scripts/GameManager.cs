@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public GameObject pauseButton;
     public GameObject startUI;
     public GameObject endUI;
+    public GameObject infoUI;
 
     private bool isGamePaused = false;
 
@@ -142,6 +143,26 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 1f; // 시간을 다시 실행합니다.
             pauseUI.SetActive(false);
+            pauseButton.SetActive(true);
+
+        }
+    }
+
+    public void ToggleInfo()
+    {
+        isGamePaused = !isGamePaused;
+        Debug.Log("paused");
+
+        if (isGamePaused)
+        {
+            Time.timeScale = 0f; // 시간을 멈춥니다.
+            infoUI.SetActive(true);
+            pauseButton.SetActive(false);
+        }
+        else
+        {
+            Time.timeScale = 1f; // 시간을 다시 실행합니다.
+            infoUI.SetActive(false);
             pauseButton.SetActive(true);
 
         }
