@@ -62,6 +62,7 @@
     <Compile Include="Assets/AurynSky/WinterArena/Scripts/ChestDemo.cs" />
     <Compile Include="Assets/MagicMirror/Demo/DemoScript.cs" />
     <Compile Include="Assets/MagicMirror/Prefab/MirrorCameraScript.cs" />
+    <Compile Include="Assets/GAME/Scripts/EndingManager.cs" />
     <Compile Include="Assets/MagicMirror/Prefab/MirrorScript.cs" />
     <Compile Include="Assets/GAME/Scripts/MergeCameras.cs" />
     <Compile Include="Assets/GAME/Scripts/Wallbreaking.cs" />
