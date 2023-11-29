@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4859aca68834a4822bb4dc343b8c0460, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.359219
+      value: -26.83
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4859aca68834a4822bb4dc343b8c0460, type: 3}
       propertyPath: m_LocalPosition.y
@@ -30,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4859aca68834a4822bb4dc343b8c0460, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.689544
+      value: 11.45
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4859aca68834a4822bb4dc343b8c0460, type: 3}
       propertyPath: m_LocalRotation.w
@@ -212,8 +212,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.8684952, y: 1.3745656, z: 1.8684952}
-  m_Center: {x: 0, y: 0.30171886, z: 0}
+  m_Size: {x: 1.6692002, y: 1.8793898, z: 1.7623022}
+  m_Center: {x: 0, y: 0.18921925, z: -0.030344263}
 --- !u!1 &2056882011770977025 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -8917703946959959745, guid: 4859aca68834a4822bb4dc343b8c0460, type: 3}
