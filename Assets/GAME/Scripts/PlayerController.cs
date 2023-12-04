@@ -35,6 +35,8 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        Teleport();
+
         if (isClimbingLadder)
         { 
             HandleLadderClimb();
@@ -184,6 +186,71 @@ public class PlayerController : MonoBehaviour
         {
             GameManager.Instance.GameOver();
             GameManager.Instance.Retry();
+        }
+    }
+
+    void Teleport()
+    {
+        if (playerTag == "Player1")
+        {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                if (Input.GetKey(KeyCode.Alpha1))
+                {
+                    transform.position = new Vector3(20, 0, 59);
+                    transform.rotation = Quaternion.Euler(0, 0, 0);
+                    cameraYAngle = 0f;
+                }
+                else if (Input.GetKey(KeyCode.Alpha2))
+                {
+                    transform.position = new Vector3(31, 1.75f, 83);
+                    transform.rotation = Quaternion.Euler(0, 180, 0);
+                    cameraYAngle = 90f;
+
+                }
+                else if (Input.GetKey(KeyCode.Alpha3))
+                {
+                    transform.position = new Vector3(28, 0, 66);
+                    transform.rotation = Quaternion.Euler(0, -90, 0);
+                    cameraYAngle = -90f;
+                }
+                else if (Input.GetKey(KeyCode.Alpha4))
+                {
+                    transform.position = new Vector3(40, 0, 52);
+                    transform.rotation = Quaternion.Euler(0, 180, 0);
+                    cameraYAngle = 180f;
+                }
+            }
+        }
+        else
+        {
+            if (Input.GetKey(KeyCode.Space))
+            {
+                if (Input.GetKey(KeyCode.Alpha1))
+                {
+                    transform.position = new Vector3(22, 0, 59);
+                    transform.rotation = Quaternion.Euler(0, 0, 0);
+                    cameraYAngle = 0f;
+                }
+                else if (Input.GetKey(KeyCode.Alpha2))
+                {
+                    transform.position = new Vector3(4, 0, 85);
+                    transform.rotation = Quaternion.Euler(0, 90, 0);
+                    cameraYAngle = 90f;
+                }
+                else if (Input.GetKey(KeyCode.Alpha3))
+                {
+                    transform.position = new Vector3(28, 0, 57);
+                    transform.rotation = Quaternion.Euler(0, -90, 0);
+                    cameraYAngle = -90f;
+                }
+                else if (Input.GetKey(KeyCode.Alpha4))
+                {
+                    transform.position = new Vector3(38, 0, 52);
+                    transform.rotation = Quaternion.Euler(0, 180, 0);
+                    cameraYAngle = 180f;
+                }
+            }
         }
     }
 
