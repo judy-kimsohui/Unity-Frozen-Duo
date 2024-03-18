@@ -105,7 +105,7 @@ Player 2(북극곰)과 충돌 시, 충돌 지점의 normal vector를 계산하�
 Player 1(펭귄)이 충돌 중일 때, Player 2(북극곰)이 버섯 위에서 충돌하면 Player 1 을
 점프시킵니다. 충돌 방향의 y축 크기가 일정 값(0.5)보다 큰지 확인하여 점프 여부를 결정합니다.
 
-### UI
+## UI
 ![image](https://github.com/sodaakim/Frozen-Duo/assets/83997634/bb1274e5-5aea-4db6-a6ed-47a6626e16b4)
 ![image](https://github.com/sodaakim/Frozen-Duo/assets/83997634/a132cc7b-7acf-4641-8ed1-fd4c632272b7)
 
