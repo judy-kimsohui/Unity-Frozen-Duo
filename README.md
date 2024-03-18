@@ -1,6 +1,3 @@
-<img width="671" alt="image" src="https://github.com/sodaakim/Frozen-Duo/assets/83997634/a1b72eb6-b06c-4cb3-9382-44255e8a55cc">기반하여 작성한 README입니다. 필요에 따라 수정하거나 추가 정보를 포함시킬 수 있습니다.
-
----
 # Frozen Duo
 
 ## 게임 소개
